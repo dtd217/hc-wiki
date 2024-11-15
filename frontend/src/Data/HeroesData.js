@@ -33,7 +33,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 10. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 80. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Physical'],
+            skill_Type: ['Physical', 'Control'],
          },
          {
             skill_Image: '/heroes/abyssal-tide/skill-2.jpg',
@@ -50,7 +50,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 20. Increases the skill range.',
                'Unlocks at Glory Awaken Level 70. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Physical'],
+            skill_Type: ['Physical', 'Buff'],
          },
          {
             skill_Image: '/heroes/abyssal-tide/skill-3.jpg',
@@ -67,7 +67,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 30. Gains extra 200 energy when casting the skill.',
                'Unlocks at Glory Awaken Level 60. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Physical'],
+            skill_Type: ['Physical', 'Control'],
          },
          {
             skill_Image: '/heroes/abyssal-tide/skill-4.jpg',
@@ -85,7 +85,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 40. Increases the armor absorbed damage.',
                'Unlocks at Glory Awaken Level 50. Increases the armor absorbed damage.',
             ],
-            skill_Type: ['Physical'],
+            skill_Type: ['Buff'],
          },
       ],
    },
@@ -124,7 +124,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 10. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 80. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Physical'],
+            skill_Type: ['Magic', 'Control'],
          },
          {
             skill_Image: '/heroes/admiral/skill-2.jpg',
@@ -140,7 +140,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 20. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 70. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Physical'],
+            skill_Type: ['Physical', 'Debuff', 'Buff'],
          },
          {
             skill_Image: '/heroes/admiral/skill-3.jpg',
@@ -157,7 +157,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 30. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 60. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Physical'],
+            skill_Type: ['Physical', 'Control'],
          },
          {
             skill_Image: '/heroes/admiral/skill-4.jpg',
@@ -225,7 +225,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 10. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 80. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Physical'],
+            skill_Type: ['Magic', 'Control'],
          },
          {
             skill_Image: '/heroes/arcane-sapper/skill-2.jpg',
@@ -241,7 +241,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 20. Increases effect of burning energy.',
                'Unlocks at Glory Awaken Level 70. Increases effect of burning energy.',
             ],
-            skill_Type: ['Physical'],
+            skill_Type: ['Physical', 'Debuff'],
          },
          {
             skill_Image: '/heroes/arcane-sapper/skill-3.jpg',
@@ -257,7 +257,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 30. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 60. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Physical'],
+            skill_Type: ['Physical', 'Buff'],
          },
          {
             skill_Image: '/heroes/arcane-sapper/skill-4.jpg',
@@ -282,7 +282,7 @@ export const HeroesData = [
             skill_Effects: [
                'Consumes 1 energy to restore # HP',
             ],
-            skill_Type: 'Heal',
+            skill_Type: ['Heal'],
          },
          {
             skill_Image: '/heroes/arcane-sapper/skill-6.jpg',
@@ -326,7 +326,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 10. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 80. Increases armor weakening effect by 15%.',
             ],
-            skill_Type: 'Fire',
+            skill_Type: ['Physical', 'Fire', 'Holy', 'Debuff'],
          },
          {
             skill_Image: '/heroes/blazing-dragon/skill-2.jpg',
@@ -342,7 +342,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 20. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 70. Increases the skill damage greatly.',
             ],
-            skill_Type: 'Fire',
+            skill_Type: ['Magic', 'Fire'],
          },
          {
             skill_Image: '/heroes/blazing-dragon/skill-3.jpg',
@@ -358,7 +358,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 30. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 60. Increases the damage to enemies with shields.',
             ],
-            skill_Type: 'Physical',
+            skill_Type: ['Physical'],
          },
          {
             skill_Image: '/heroes/blazing-dragon/skill-4.jpg',
@@ -375,7 +375,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 40. Increases agility bonus effect by 30%.',
                'Unlocks at Glory Awaken Level 50. Increases agility bonus effect by 30%.',
             ],
-            skill_Type: 'Physical',
+            skill_Type: ['Buff'],
          },
          {
             skill_Image: '/heroes/blazing-dragon/skill-6.jpg',
@@ -421,7 +421,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 10. Increases armor weakening effect.',
                'Unlocks at Glory Awaken Level 80. Increases the skill damage greatly.',
             ],
-            skill_Type: 'Physical',
+            skill_Type: ['Physical', 'Debuff'],
          },
          {
             skill_Image: '/heroes/cat-fencer/skill-2.jpg',
@@ -438,7 +438,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 20. Increases Attack Damage bonus.',
                'Unlocks at Glory Awaken Level 70. Increases the frequency of shield damage.',
             ],
-            skill_Type: 'Buff',
+            skill_Type: ['Physical', 'Buff'],
          },
          {
             skill_Image: '/heroes/cat-fencer/skill-3.jpg',
@@ -455,7 +455,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 30. Reduces the skill cooldown by 3 second(s).',
                'Unlocks at Glory Awaken Level 60. Increases the skill damage greatly.',
             ],
-            skill_Type: 'Physical',
+            skill_Type: ['Physical'],
          },
          {
             skill_Image: '/heroes/cat-fencer/skill-4.jpg',
@@ -471,7 +471,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 40. Increases physical crit boosting effect.',
                'Unlocks at Glory Awaken Level 50. Increases physical crit boosting effect.',
             ],
-            skill_Type: 'Buff',
+            skill_Type: ['Buff'],
          },
          {
             skill_Image: '/heroes/cat-fencer/skill-6.jpg',
@@ -514,7 +514,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 10. Increases healing amount greatly.',
                'Unlocks at Glory Awaken Level 80. Increases healing amount greatly.',
             ],
-            skill_Type: 'Heal',
+            skill_Type: ['Heal'],
          },
          {
             skill_Image: '/heroes/chaplain/skill-2.jpg',
@@ -530,7 +530,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 20. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 70. Increases the skill damage greatly.',
             ],
-            skill_Type: 'Magic',
+            skill_Type: ['Magic'],
          },
          {
             skill_Image: '/heroes/chaplain/skill-3.jpg',
@@ -546,7 +546,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 30. Increases the duration of converting.',
                'Unlocks at Glory Awaken Level 60. Increases the duration of converting.',
             ],
-            skill_Type: 'Control',
+            skill_Type: ['Control'],
          },
          {
             skill_Image: '/heroes/chaplain/skill-4.jpg',
@@ -563,7 +563,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 40. Increases armor boosting effect.',
                'Unlocks at Glory Awaken Level 50. Increases armor boosting effect.',
             ],
-            skill_Type: 'Debuff',
+            skill_Type: ['Buff', 'Debuff'],
          },
       ],
    },
@@ -601,7 +601,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 10. Increases the armor absorbed damage.',
                'Unlocks at Glory Awaken Level 80. Increases the armor absorbed damage.',
             ],
-            skill_Type: 'Buff',
+            skill_Type: ['Buff'],
          },
          {
             skill_Image: '/heroes/cleric/skill-2.jpg',
@@ -617,7 +617,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 20. Increases the healing amount for allies.',
                'Unlocks at Glory Awaken Level 70. Increases the healing amount for allies.',
             ],
-            skill_Type: 'Heal',
+            skill_Type: ['Heal'],
          },
          {
             skill_Image: '/heroes/cleric/skill-3.jpg',
@@ -633,7 +633,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 30. Increases damage absorbing effect.',
                'Unlocks at Glory Awaken Level 60. Increases damage absorbing effect.',
             ],
-            skill_Type: 'Buff',
+            skill_Type: ['Buff'],
          },
          {
             skill_Image: '/heroes/cleric/skill-4.jpg',
@@ -649,7 +649,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 40. Increases the damage reducing effect.',
                'Unlocks at Glory Awaken Level 50. Increases the damage reducing effect.',
             ],
-            skill_Type: 'Buff',
+            skill_Type: ['Buff'],
          },
          {
             skill_Image: '/heroes/cleric/skill-5.jpg',
@@ -658,7 +658,7 @@ export const HeroesData = [
             skill_Effects: [
                'Increases # damage',
             ],
-            skill_Type: 'Magic',
+            skill_Type: ['Magic'],
          },
          {
             skill_Image: '/heroes/cleric/skill-6.jpg',
@@ -702,7 +702,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 10. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 80. Increases the skill damage greatly.',
             ],
-            skill_Type: 'Physical',
+            skill_Type: ['Physical', 'Summon', 'Control'],
          },
          {
             skill_Image: '/heroes/cloud-walker/skill-2.jpg',
@@ -718,7 +718,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 20. Gains extra 50 energy when casting the skill.',
                'Unlocks at Glory Awaken Level 70. Gains extra 50 energy when casting the skill.',
             ],
-            skill_Type: 'Summon',
+            skill_Type: ['Summon'],
          },
          {
             skill_Image: '/heroes/cloud-walker/skill-3.jpg',
@@ -736,7 +736,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 30. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 60. Increases the skill damage greatly.',
             ],
-            skill_Type: 'Physical',
+            skill_Type: ['Physical', 'Summon', 'Control'],
          },
          {
             skill_Image: '/heroes/cloud-walker/skill-4.jpg',
@@ -752,7 +752,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 40. Increases HP bonus effect by 30%.',
                'Unlocks at Glory Awaken Level 50. Increases HP bonus effect by 30%.',
             ],
-            skill_Type: 'Buff',
+            skill_Type: ['Buff'],
          },
          {
             skill_Image: '/heroes/cloud-walker/skill-5.jpg',
@@ -762,7 +762,7 @@ export const HeroesData = [
                'Phantom gains extra ##% of the original hero’s agility.',
                'Mirror Image level #',
             ],
-            skill_Type: 'Summon',
+            skill_Type: ['Summon'],
          },
          {
             skill_Image: '/heroes/cloud-walker/skill-6.jpg',
@@ -806,7 +806,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 10. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 80. Increases attack bonus effect by 50% after dealing lethal damage.',
             ],
-            skill_Type: 'Physical',
+            skill_Type: ['Physical', 'Control'],
          },
          {
             skill_Image: '/heroes/commander/skill-2.jpg',
@@ -822,7 +822,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 20. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 70. Increases burning damage.',
             ],
-            skill_Type: 'Fire',
+            skill_Type: ['Magic', 'Fire'],
          },
          {
             skill_Image: '/heroes/commander/skill-3.jpg',
@@ -839,7 +839,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 30. Increases armor boosting effect.',
                'Unlocks at Glory Awaken Level 60. Increases magic resistance boosting effect.',
             ],
-            skill_Type: 'Buff',
+            skill_Type: ['Buff'],
          },
          {
             skill_Image: '/heroes/commander/skill-4.jpg',
@@ -855,7 +855,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 40. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 50. Increases the skill damage greatly.',
             ],
-            skill_Type: 'Physical',
+            skill_Type: ['Physical', 'Buff', 'Control'],
          },
          {
             skill_Image: '/heroes/commander/skill-5.jpg',
@@ -864,7 +864,7 @@ export const HeroesData = [
             skill_Effects: [
                'Aura: Increases all allied female heroes\' max HP by #.',
             ],
-            skill_Type: 'Buff',
+            skill_Type: ['Buff'],
          },
          {
             skill_Image: '/heroes/commander/skill-6.jpg',
@@ -907,7 +907,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 10. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 80. Increases the skill damage greatly.',
             ],
-            skill_Type: 'Physical',
+            skill_Type: ['Physical'],
          },
          {
             skill_Image: '/heroes/commando/skill-2.jpg',
@@ -924,7 +924,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 20. Increases attack and magic power boosting effect.',
                'Unlocks at Glory Awaken Level 70. Increases attack and magic power boosting effect.',
             ],
-            skill_Type: 'Buff',
+            skill_Type: ['Buff'],
          },
          {
             skill_Image: '/heroes/commando/skill-3.jpg',
@@ -941,7 +941,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 30. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 60. Increases the skill damage greatly.',
             ],
-            skill_Type: 'Physical',
+            skill_Type: ['Physical', 'Control'],
          },
          {
             skill_Image: '/heroes/commando/skill-4.jpg',
@@ -957,12 +957,105 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 40. Increases agility bonus effect.',
                'Unlocks at Glory Awaken Level 50. Increases agility bonus effect.',
             ],
-            skill_Type: 'Buff',
+            skill_Type: ['Buff'],
          },
          {
             skill_Image: '/heroes/commando/skill-6.jpg',
             skill_Name: 'Cupid\'s Arrow',
             skill_Description: 'Using the Cupid Skin allows the Commando\'s allies to share incoming damage for her. When casting her 2nd skill, Commando can restore energy for her allies. If Commando\'s basic attack and skills deal critical hit, she has a chance to charm the target.',
+         },
+      ],
+   },
+   // Crown Slayer
+   {
+      id: 38,
+      name: 'Crown Slayer',
+      realName: 'Jaime',
+      image: '/heroes/crown-slayer/avatar.jpg',
+      poster: '/heroes/crown-slayer/poster.jpg',
+      posterSkin: '/heroes/crown-slayer/poster-skin.jpg',
+      skin: '/heroes/crown-slayer/skin.jpg',
+      skinName: 'Charge Limited',
+      portraits: 'Noble Elf',
+      type: 'AGI',
+      frame: 'normal',
+      tags: ['male', 'ninja'],
+      rarity: 'limited',
+      introduction: 'Front line agile hero, who can flexibly dodge damage and cause lethal damage to the weak enemies.',
+      heroesClass: 'Assassin',
+      position: 'Front',
+      majorDuty: 'Burst Damage',
+      skills: [
+         {
+            skill_Image: '/heroes/crown-slayer/skill-1.jpg',
+            skill_Name: 'Bloody Feast',
+            skill_Description: 'Active: Causing multiple times of damage to the weakest target, and dealing great Execution effect to it. Passive: Each attack can hit one weakness of the target, causing long-time stunning and vulnerable effect to the target after all of its weakness are hit.',
+            skill_Effects: [
+               'Increases 24000 damage',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 1. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 10. Increases execution damage greatly.',
+               'Unlocks at Awaken Level 20. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 10. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 80. Increases execution damage greatly.',
+            ],
+            skill_Type: ['Physical', 'Control', 'Debuff'],
+         },
+         {
+            skill_Image: '/heroes/crown-slayer/skill-2.jpg',
+            skill_Name: 'Shadow Assault',
+            skill_Description: 'Strike the enemy of most intellect, causing 3 times of damage to it, each damage can hit one weakness.',
+            skill_Effects: [
+               'Increases 8000 damage',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 2. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 12. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 19. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 20. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 70. Increases the skill damage greatly.',
+            ],
+            skill_Type: ['Physical'],
+         },
+         {
+            skill_Image: '/heroes/crown-slayer/skill-3.jpg',
+            skill_Name: 'Shadow Step',
+            skill_Description: 'Active: Increases physical dodge after release, and has a certain chance to be immune to damage taken. Passive: Releases Whirlwind after successful dodge, causing an area damage.',
+            skill_Effects: [
+               'Increases 960 dodge rate after triggering the skill',
+               'Increases 9600 damage'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 3. Increases physical dodge boosting effect.',
+               'Unlocks at Awaken Level 15. Increases the rate of being immune to incoming damage.',
+               'Unlocks at Awaken Level 18. Increases the damage of Whirlwind greatly.',
+               'Unlocks at Glory Awaken Level 30. Increases physical dodge boosting effect.',
+               'Unlocks at Glory Awaken Level 60. Increases the damage of Whirlwind greatly.',
+            ],
+            skill_Type: ['Physical', 'Buff'],
+         },
+         {
+            skill_Image: '/heroes/crown-slayer/skill-4.jpg',
+            skill_Name: 'Backstab',
+            skill_Description: 'Passive Effect: Increases dodge rate, causing extra damage to the target when attacking from its back. Passive Triggering: CrownSlayer will split one shadow and flash to the enemy\'s back to deal one attack after triggering dodge.',
+            skill_Effects: [
+               'Increases 8000 damage',
+               'Passive: Increases 480 dodge rate'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 5. Increases the extra damage of Backstab.',
+               'Unlocks at Awaken Level 16. Increases damage of shadow.',
+               'Unlocks at Awaken Level 17. Increases Physical Dodge Boosting Effect.',
+               'Unlocks at Glory Awaken Level 40. Increases damage of shadow.',
+               'Unlocks at Glory Awaken Level 50. Increases Physical Dodge Boosting Effect.',
+            ],
+            skill_Type: ['Physical', 'Buff'],
+         },
+         {
+            skill_Image: '/heroes/crown-slayer/skill-6.jpg',
+            skill_Name: 'Agile Leap',
+            skill_Description: 'Jaime gains more dexterous dodging skills after hard training, being immune to control effects and initiating counterattack.',
          },
       ],
    },
@@ -1000,7 +1093,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 10. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 80. Increases the skill damage greatly.',
             ],
-            skill_Type: 'Magic',
+            skill_Type: ['Magic', 'Buff', 'Debuff'],
          },
          {
             skill_Image: '/heroes/death-mage/skill-2.jpg',
@@ -1016,7 +1109,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 20. Reduces the skill cooldown by 2 second(s).',
                'Unlocks at Glory Awaken Level 70. Increases the skill damage greatly.',
             ],
-            skill_Type: 'Magic',
+            skill_Type: ['Magic'],
          },
          {
             skill_Image: '/heroes/death-mage/skill-3.jpg',
@@ -1032,7 +1125,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 30. Gains extra 100 energy when casting the skill.',
                'Unlocks at Glory Awaken Level 60. Gains extra 100 energy when casting the skill.',
             ],
-            skill_Type: 'Debuff',
+            skill_Type: ['Debuff'],
          },
          {
             skill_Image: '/heroes/death-mage/skill-4.jpg',
@@ -1048,7 +1141,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 40. Increases magic power boosting effect.',
                'Unlocks at Glory Awaken Level 50. Increases magic power boosting effect.',
             ],
-            skill_Type: 'Buff',
+            skill_Type: ['Buff'],
          },
          {
             skill_Image: '/heroes/death-mage/skill-6.jpg',
@@ -1091,7 +1184,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 10. Increases attack power boosting effect.',
                'Unlocks at Glory Awaken Level 80. Increases attack damage bonus.',
             ],
-            skill_Type: 'Buff',
+            skill_Type: ['Buff'],
          },
          {
             skill_Image: '/heroes/divine-knight/skill-2.jpg',
@@ -1108,7 +1201,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 20. Reduces the skill cooldown by 3 second(s).',
                'Unlocks at Glory Awaken Level 70. Increases the skill damage greatly.',
             ],
-            skill_Type: 'Physical',
+            skill_Type: ['Physical', 'Control'],
          },
          {
             skill_Image: '/heroes/divine-knight/skill-3.jpg',
@@ -1124,7 +1217,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 30. Reduces the skill cooldown by 3 second(s).',
                'Unlocks at Glory Awaken Level 60. Reduces the skill cooldown by 3 second(s).',
             ],
-            skill_Type: 'Physical',
+            skill_Type: ['Physical', 'Control'],
          },
          {
             skill_Image: '/heroes/divine-knight/skill-4.jpg',
@@ -1140,7 +1233,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 40. Increases the lifesteal effect of basic attacks.',
                'Unlocks at Glory Awaken Level 50. Increases the lifesteal effect of basic attacks.',
             ],
-            skill_Type: 'Debuff',
+            skill_Type: ['Debuff'],
          },
          {
             skill_Image: '/heroes/divine-knight/skill-6.jpg',
@@ -1183,7 +1276,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 10. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 80. Increases the skill damage greatly.',
             ],
-            skill_Type: 'Physical',
+            skill_Type: ['Physical'],
          },
          {
             skill_Image: '/heroes/dwarf-warrior/skill-2.jpg',
@@ -1201,7 +1294,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 20. Increases armor and magic resistance bonus effect by 30%.',
                'Unlocks at Glory Awaken Level 70. Increases armor and magic resistance bonus effect by 30%.',
             ],
-            skill_Type: 'Physical',
+            skill_Type: ['Control', 'Buff'],
          },
          {
             skill_Image: '/heroes/dwarf-warrior/skill-3.jpg',
@@ -1220,7 +1313,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 30. Increases the attack boosting effect by 100%.',
                'Unlocks at Glory Awaken Level 60. Increases armor increasing effect by 100%.',
             ],
-            skill_Type: 'Buff',
+            skill_Type: ['Buff'],
          },
          {
             skill_Image: '/heroes/dwarf-warrior/skill-4.jpg',
@@ -1236,7 +1329,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 40. Increases strength boosting effect by 60%.',
                'Unlocks at Glory Awaken Level 50. Increases strength boosting effect by 60%.',
             ],
-            skill_Type: 'Buff',
+            skill_Type: ['Buff'],
          },
          {
             skill_Image: '/heroes/dwarf-warrior/skill-5.jpg',
@@ -1245,7 +1338,7 @@ export const HeroesData = [
             skill_Effects: [
                'Absorbs up to # damage',
             ],
-            skill_Type: 'Buff',
+            skill_Type: ['Buff'],
          },
          {
             skill_Image: '/heroes/dwarf-warrior/skill-6.jpg',
@@ -1373,7 +1466,7 @@ export const HeroesData = [
             skill_Effects: [
                'Each blast attack increases 1870 damage',
             ],
-            skill_Type: ['Ice'],
+            skill_Type: ['Magic', 'Ice'],
          },
          {
             skill_Image: '/heroes/frost-mage/skill-2.jpg',
@@ -1382,7 +1475,7 @@ export const HeroesData = [
             skill_Effects: [
                'Increases 1870 damage',
             ],
-            skill_Type: ['Ice'],
+            skill_Type: ['Magic', 'Ice'],
          },
          {
             skill_Image: '/heroes/frost-mage/skill-3.jpg',
@@ -1448,7 +1541,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 10. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 80. Increases lifesteal effect by 75% additionally when the skill causes damage.',
             ],
-            skill_Type: ['Physical'],
+            skill_Type: ['Physical', 'Control'],
          },
          {
             skill_Image: '/heroes/halberd-master/skill-2.jpg',
@@ -1461,12 +1554,12 @@ export const HeroesData = [
             ],
             skill_Awaken: [
                'Unlocks at Awaken Level 2. Increases lifesteal effect by 100% additionally when the skill causes damage.',
-               'Unlocks at Awaken Level 12. Increses the armor reducing effect by 15%.',
+               'Unlocks at Awaken Level 12. Increases the armor reducing effect by 15%.',
                'Unlocks at Awaken Level 19. Gains extra 100 energy when casting the skill.',
                'Unlocks at Glory Awaken Level 20. Slightly increases the duration of preventing the target from restoring HP.',
                'Unlocks at Glory Awaken Level 70. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Physical'],
+            skill_Type: ['Physical', 'Defense'],
          },
          {
             skill_Image: '/heroes/halberd-master/skill-3.jpg',
@@ -1482,7 +1575,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 30. Gains extra 150 energy when casting the skill.',
                'Unlocks at Glory Awaken Level 60. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Physical'],
+            skill_Type: ['Physical', 'Control'],
          },
          {
             skill_Image: '/heroes/halberd-master/skill-4.jpg',
@@ -1498,12 +1591,196 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 40. Increases the attack boosting effect by 100%.',
                'Unlocks at Glory Awaken Level 50. Increases Attack Damage bonus.',
             ],
-            skill_Type: ['Physical'],
+            skill_Type: ['Buff'],
          },
          {
             skill_Image: '/heroes/halberd-master/skill-6.jpg',
             skill_Name: 'Heartpiercing Slay',
             skill_Description: 'Using the Gladiator skin allows Halberd Master\'s ult skill to dispel most of the target\'s armor bonus buffs and reduce the target\'s armor by a significant percentage. These effects take place before the ult skill causes damage. Halberd Master\'s 3rd skill will prevent the targets from casting certain healing skills for seconds.',
+         },
+      ],
+   },
+   // Hidden Needle
+   {
+      id: 100,
+      name: 'Hidden Needle',
+      realName: 'Quimulan Klaas',
+      image: '/heroes/hidden-needle/avatar.jpg',
+      poster: '/heroes/hidden-needle/poster.jpg',
+      posterSkin: '/heroes/hidden-needle/poster-skin.jpg',
+      skin: '/heroes/hidden-needle/skin.jpg',
+      skinName: 'Tango',
+      portraits: 'Noble Elf',
+      type: 'AGI',
+      frame: 'normal',
+      tags: ['female', 'heroine', 'sword'],
+      rarity: 'rare',
+      introduction: 'Middle line Assassin, who can turn the tide of the battle by mystic ability.',
+      heroesClass: 'Assassin',
+      position: 'Central',
+      majorDuty: 'Burst Damage',
+      skills: [
+         {
+            skill_Image: '/heroes/hidden-needle/skill-1.jpg',
+            skill_Name: 'Insidious',
+            skill_Description: 'Quimulan assassinates a target with holy damage and also deals splash damage near the target.',
+            skill_Effects: [
+               'Increases 8050 damage'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 1. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 10. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 20. Reduces the skill energy cost by 100.',
+               'Unlocks at Glory Awaken Level 10. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 80. Increases the skill damage greatly.',
+            ],
+            skill_Type: ['Physical', 'Holy'],
+         },
+         {
+            skill_Image: '/heroes/hidden-needle/skill-2.jpg',
+            skill_Name: 'Refraction',
+            skill_Description: 'Each time Quimulan kills an enemy, she gains 5 refraction charges, each of which absorbs one incoming attack and recovers 80 energy. The refraction also blocks all control skills.',
+            skill_Effects: [
+               'Each charge of Refraction can take up to 12900 damage',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 2. Gains 6 refraction charges.',
+               'Unlocks at Awaken Level 12. Increases the damage that refraction can absorb.',
+               'Unlocks at Awaken Level 19. Increases effect of recovering energy.',
+               'Unlocks at Glory Awaken Level 20. Increases the damage that refraction can absorb.',
+               'Unlocks at Glory Awaken Level 70. Increases the damage that refraction can absorb.',
+            ],
+            skill_Type: ['Buff'],
+         },
+         {
+            skill_Image: '/heroes/hidden-needle/skill-3.jpg',
+            skill_Name: 'Psionic Magic',
+            skill_Description: 'Quimulan creates a psionic trap on ground and controls enemies within to disable them from moving, dodging and attacking.',
+            skill_Effects: [
+               'The higher the Skill level, the higher the hit rate. You will get 100% chance if the target is under Level 161',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 3. Extends duration time of psionic trap.',
+               'Unlocks at Awaken Level 15. Gains extra 50 energy when casting the skill.',
+               'Unlocks at Awaken Level 18. Reduces the skill cooldown by 3 second(s).',
+               'Unlocks at Glory Awaken Level 30. Extends duration time of psionic trap.',
+               'Unlocks at Glory Awaken Level 60. Gains extra 50 energy when casting the skill.',
+            ],
+            skill_Type: ['Control'],
+         },
+         {
+            skill_Image: '/heroes/hidden-needle/skill-4.jpg',
+            skill_Name: 'Spectral Blade',
+            skill_Description: 'Using her psionic powers, Quimulan deals holy damage to her target and causes enemies behind the target to feel the same pain as the target itself.',
+            skill_Effects: [
+               'Splash Damage 140.5%',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 5. Increases cleave effect.',
+               'Unlocks at Awaken Level 16. Increases cleave effect.',
+               'Unlocks at Awaken Level 17. Increases cleave effect.',
+               'Unlocks at Glory Awaken Level 40. Increases cleave effect.',
+               'Unlocks at Glory Awaken Level 50. Increases cleave effect.',
+            ],
+            skill_Type: ['Physical', 'Holy'],
+         },
+         {
+            skill_Image: '/heroes/hidden-needle/skill-6.jpg',
+            skill_Name: 'Fatal Tango',
+            skill_Description: 'Using the Tango Skin allows Hidden Needle\'s ult skill to deal extra damage based on the missing HP of the target.',
+         },
+      ],
+   },
+   // Holy Priestess
+   {
+      id: 101,
+      name: 'Holy Priestess',
+      realName: 'Ana',
+      image: '/heroes/holy-priestess/avatar.jpg',
+      poster: '/heroes/holy-priestess/poster.jpg',
+      posterSkin: '/heroes/holy-priestess/poster-skin.jpg',
+      skin: '/heroes/holy-priestess/skin.jpg',
+      skinName: 'Sky Dome',
+      portraits: 'Noble Elf',
+      type: 'INT',
+      frame: 'normal',
+      tags: ['female'],
+      rarity: 'epic',
+      introduction: 'Middle line intellect hero, who can use holy light to heal allies and punish enemies.',
+      heroesClass: 'Support',
+      position: 'Central',
+      majorDuty: 'Heal',
+      skills: [
+         {
+            skill_Image: '/heroes/holy-priestess/skill-1.jpg',
+            skill_Name: 'Holy Healing',
+            skill_Description: 'Ana heals one of her weakest allies and also reduces incoming damage to him for a period of time.',
+            skill_Effects: [
+               'Increases basic healing for allies by 25800',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 1. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 10. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 20. Reduces the skill energy cost by 100.',
+               'Unlocks at Glory Awaken Level 10. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 80. Increases the skill damage greatly.',
+            ],
+            skill_Type: ['Heal', 'Buff'],
+         },
+         {
+            skill_Image: '/heroes/holy-priestess/skill-2.jpg',
+            skill_Name: 'Holy Punishment',
+            skill_Description: 'Ana fires off a holy beam of light to punish an enemy and marks him with a holy seal. Allies who attack the enemy with the holy seal can restore HP.',
+            skill_Effects: [
+               'Increases 12900 damage',
+               'Increases basic healing for allies by 3440'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 2. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 12. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 19. Gains extra 50 energy when casting the skill.',
+               'Unlocks at Glory Awaken Level 20. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 70. Increases the skill damage greatly.',
+            ],
+            skill_Type: ['Magic', 'Heal'],
+         },
+         {
+            skill_Image: '/heroes/holy-priestess/skill-3.jpg',
+            skill_Name: 'Holy Nova',
+            skill_Description: 'Ana damages nearby enemies and also heals nearby allies.',
+            skill_Effects: [
+               'Increases damage to enemies by 8600',
+               'Increases basic healing for allies by 8600'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 3. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 15. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 18. Reduces the skill cooldown by 3 second(s).',
+               'Unlocks at Glory Awaken Level 30. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 60. Increases the skill damage greatly.',
+            ],
+            skill_Type: ['Magic', 'Heal'],
+         },
+         {
+            skill_Image: '/heroes/holy-priestess/skill-4.jpg',
+            skill_Name: 'Holy Guard',
+            skill_Description: 'Ana restores her own HP right before her death.',
+            skill_Effects: [
+               'HP regenerate by 68800 when reviving',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 5. Increases restored HP after her reviving.',
+               'Unlocks at Awaken Level 16. Increases restored HP after her reviving.',
+               'Unlocks at Awaken Level 17. Increases restored HP after her reviving.',
+               'Unlocks at Glory Awaken Level 40. Increases restored HP after her reviving.',
+               'Unlocks at Glory Awaken Level 50. Increases restored HP after her reviving.',
+            ],
+            skill_Type: ['Heal'],
+         },
+         {
+            skill_Image: '/heroes/holy-priestess/skill-6.jpg',
+            skill_Name: 'Celestial Shield',
+            skill_Description: 'Using Sky Dome Light Skin allows Holy Priestess to create a field on the allied side of the battlefield for a period of time when the battle starts, reducing enemies\' damage and increasing the incoming damage they receive when entering the field. The field and its duration will be reset when Holy Healing is casted for the first time.',
          },
       ],
    },
@@ -1637,7 +1914,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 10. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 80. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Fire'],
+            skill_Type: ['Magic', 'Fire'],
          },
          {
             skill_Image: '/heroes/inferno/skill-2.jpg',
@@ -1654,7 +1931,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 20. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 70. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Fire'],
+            skill_Type: ['Magic', 'Fire', 'Control'],
          },
          {
             skill_Image: '/heroes/inferno/skill-3.jpg',
@@ -1670,7 +1947,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 30. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 60. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Fire'],
+            skill_Type: ['Magic', 'Fire'],
          },
          {
             skill_Image: '/heroes/inferno/skill-4.jpg',
@@ -1686,7 +1963,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 40. Increases damage per second.',
                'Unlocks at Glory Awaken Level 50. Increases damage per second.',
             ],
-            skill_Type: ['Fire'],
+            skill_Type: ['Magic', 'Fire', 'Buff'],
          },
          {
             skill_Image: '/heroes/inferno/skill-6.jpg',
@@ -1729,7 +2006,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 10. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 80. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Physical'],
+            skill_Type: ['Physical', 'Control'],
          },
          {
             skill_Image: '/heroes/iron-hoof/skill-2.jpg',
@@ -1741,12 +2018,12 @@ export const HeroesData = [
             ],
             skill_Awaken: [
                'Unlocks at Awaken Level 2. Increases the skill damage greatly.',
-               'Unlocks at Awaken Level 12. Increses the skill range.',
+               'Unlocks at Awaken Level 12. Increases the skill range.',
                'Unlocks at Awaken Level 19. Reduces the skill cooldown by 3 second(s).',
-               'Unlocks at Glory Awaken Level 20. Increses the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 20. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 70. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Magic'],
+            skill_Type: ['Physical', 'Control'],
          },
          {
             skill_Image: '/heroes/iron-hoof/skill-3.jpg',
@@ -1821,7 +2098,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 10. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 80. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Lightning'],
+            skill_Type: ['Magic', 'Lightning'],
          },
          {
             skill_Image: '/heroes/lightning-master/skill-2.jpg',
@@ -1832,12 +2109,12 @@ export const HeroesData = [
             ],
             skill_Awaken: [
                'Unlocks at Awaken Level 2. Increases the skill damage greatly.',
-               'Unlocks at Awaken Level 12. Increses the skill damage greatly.',
-               'Unlocks at Awaken Level 19. Increses the skill damage greatly.',
-               'Unlocks at Glory Awaken Level 20. Increses the skill damage greatly.',
+               'Unlocks at Awaken Level 12. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 19. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 20. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 70. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Lightning'],
+            skill_Type: ['Magic', 'Lightning'],
          },
          {
             skill_Image: '/heroes/lightning-master/skill-3.jpg',
@@ -1854,7 +2131,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 30. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 60. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Lightning'],
+            skill_Type: ['Magic', 'Lightning'],
          },
          {
             skill_Image: '/heroes/lightning-master/skill-4.jpg',
@@ -1930,12 +2207,12 @@ export const HeroesData = [
             ],
             skill_Awaken: [
                'Unlocks at Awaken Level 2. Increases the skill damage greatly.',
-               'Unlocks at Awaken Level 12. Increses the skill damage greatly.',
+               'Unlocks at Awaken Level 12. Increases the skill damage greatly.',
                'Unlocks at Awaken Level 19. Gains extra 50 energy when casting the skill.',
-               'Unlocks at Glory Awaken Level 20. Increses the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 20. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 70. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Physical'],
+            skill_Type: ['Physical', 'Control'],
          },
          {
             skill_Image: '/heroes/lunar-guardian/skill-3.jpg',
@@ -1967,7 +2244,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 40. Increases the HP recovery effect.',
                'Unlocks at Glory Awaken Level 50. Increases the HP recovery effect.',
             ],
-            skill_Type: ['Buff'],
+            skill_Type: ['Heal', 'Debuff'],
          },
          {
             skill_Image: '/heroes/lunar-guardian/skill-5.jpg',
@@ -1982,6 +2259,192 @@ export const HeroesData = [
             skill_Image: '/heroes/lunar-guardian/skill-6.jpg',
             skill_Name: 'Bicycle Kick',
             skill_Description: 'Using the Champion Heart Skin allows Lunar Guardian to cause a stunning effect to the enemies when using the ult skill and the 2nd skill. Also, Lunar Guardian can use slide tackle once to kick the enemy into the air when he loses a certain amount of HP. And he will gain a damage reduction effect for a next certain amount of time.',
+         },
+      ],
+   },
+   // Manipulator
+   {
+      id: 123,
+      name: 'Manipulator',
+      realName: 'Monica',
+      image: '/heroes/manipulator/avatar.jpg',
+      poster: '/heroes/manipulator/poster.jpg',
+      posterSkin: '/heroes/manipulator/poster-skin.jpg',
+      skin: '/heroes/manipulator/skin.jpg',
+      skinName: 'Beach Party',
+      portraits: 'Noble Elf',
+      type: 'INT',
+      frame: 'normal',
+      tags: ['female'],
+      rarity: 'rare',
+      introduction: 'Back line high intellect Mage, who is able to control the battlefield with her powerful magic abilities.',
+      heroesClass: 'Support',
+      position: 'Back',
+      majorDuty: 'Control',
+      skills: [
+         {
+            skill_Image: '/heroes/manipulator/skill-1.jpg',
+            skill_Name: 'Trance',
+            skill_Description: 'Monica manipulates the battlefield by putting all enemies into a trance and deals magic damage to them. If an enemy cast any active skill during the trance, he will be stunned.',
+            skill_Effects: [
+               'Increases 3360 damage',
+               'The higher the Skill level, the higher the hit rate. You will get 100% chance if the target is under Level 168'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 1. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 10. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 20. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 10. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 80. Increases the skill damage greatly.',
+            ],
+            skill_Type: ['Magic', 'Control'],
+         },
+         {
+            skill_Image: '/heroes/manipulator/skill-2.jpg',
+            skill_Name: 'Mark of Fate',
+            skill_Description: 'Monica marks an ally of the most HP and forces all enemies to attack him. The ally also gains armor bonus.',
+            skill_Effects: [
+               'Armor +420',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 2. Increases extra armor boosting effect greatly.',
+               'Unlocks at Awaken Level 12. Increases extra armor boosting effect greatly.',
+               'Unlocks at Awaken Level 19. Increases extra armor boosting effect greatly.',
+               'Unlocks at Glory Awaken Level 20. Increases extra armor boosting effect greatly.',
+               'Unlocks at Glory Awaken Level 70. Increases extra armor boosting effect greatly.',
+            ],
+            skill_Type: ['Buff', 'Control'],
+         },
+         {
+            skill_Image: '/heroes/manipulator/skill-3.jpg',
+            skill_Name: 'Magic Fury',
+            skill_Description: 'Monica knocks back up to 3 enemies and deals magic damage to them.',
+            skill_Effects: [
+               'Increases 1680 damage',
+               'The rate of hitting enemies into air increases with level, will definitely hit enemies of level 168 or lower',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 3. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 15. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 18. Gain extra 50 energy when casting the skill.',
+               'Unlocks at Glory Awaken Level 30. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 60. Increases the skill damage greatly.',
+            ],
+            skill_Type: ['Magic', 'Lightning'],
+         },
+         {
+            skill_Image: '/heroes/manipulator/skill-4.jpg',
+            skill_Name: 'Mysterious Aid',
+            skill_Description: 'Monica increases the whole team\'s magic crit by the mysterious aid.',
+            skill_Effects: [
+               'Aura: The whole team increases 504 magic crit',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 5. Increases the Magic Crit effect greatly.',
+               'Unlocks at Awaken Level 16. Increases the Magic Crit effect greatly.',
+               'Unlocks at Awaken Level 17. Increases the Magic Crit effect greatly.',
+               'Unlocks at Glory Awaken Level 40. Increases the Magic Crit effect greatly.',
+               'Unlocks at Glory Awaken Level 50. Increases the Magic Crit effect greatly.',
+            ],
+            skill_Type: ['Buff'],
+         },
+         {
+            skill_Image: '/heroes/manipulator/skill-6.jpg',
+            skill_Name: 'Energetic',
+            skill_Description: 'Using the Beach Party Skin has a chance to gain extra energy when casting Trance, Mark of Fate and Magic Fury.',
+         },
+      ],
+   },
+   // Minstrel
+   {
+      id: 130,
+      name: 'Minstrel',
+      realName: 'SoRollandia',
+      image: '/heroes/minstrel/avatar.jpg',
+      poster: '/heroes/minstrel/poster.jpg',
+      posterSkin: '/heroes/minstrel/poster-skin.jpg',
+      skin: '/heroes/minstrel/skin.jpg',
+      skinName: 'Rose Valentine',
+      portraits: 'Noble Elf',
+      type: 'INT',
+      frame: 'normal',
+      tags: ['male'],
+      rarity: 'legendary',
+      introduction: 'Middle line intellect hero, who can heal his teammates and clear their negative effects.',
+      heroesClass: 'Support',
+      position: 'Central',
+      majorDuty: 'Heal',
+      skills: [
+         {
+            skill_Image: '/heroes/minstrel/skill-1.jpg',
+            skill_Name: 'Requiem',
+            skill_Description: 'Rolland sings the requiem continuously, healing the surrounding teammates multiple times, clearing the negative effects of the teammates in the range and continuously decreasing the physical attack of the enemies in the range.',
+            skill_Effects: [
+               'Each instance regenerates 4225 HP'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 1. Increases healing effect greatly.',
+               'Unlocks at Awaken Level 10. Increases attack damage reducing effect.',
+               'Unlocks at Awaken Level 20. Increases healing effect greatly.',
+               'Unlocks at Glory Awaken Level 10. Increases healing effect greatly.',
+               'Unlocks at Glory Awaken Level 80. Increases healing effect greatly.',
+            ],
+            skill_Type: ['Heal', 'Buff', 'Debuff'],
+         },
+         {
+            skill_Image: '/heroes/minstrel/skill-2.jpg',
+            skill_Name: 'Lullaby',
+            skill_Description: 'Rolland causes damage to the front enemies and hypnotizes them. If the enemies suffer damage, they will get rid of the hypnosis effects.',
+            skill_Effects: [
+               'Increases 8450 damage',
+               'The higher the Skill level, the higher the hit rate. You will get 100% chance if the target is under Level 169'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 2. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 12. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 19. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 20. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 70. Increases the skill damage greatly.',
+            ],
+            skill_Type: ['Magic', 'Control'],
+         },
+         {
+            skill_Image: '/heroes/minstrel/skill-3.jpg',
+            skill_Name: 'Hymn',
+            skill_Description: 'Rolland plays a Hymn, healing the surrounding teammates once.',
+            skill_Effects: [
+               'ncreases basic healing by 8450',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 3. Increases healing effect greatly.',
+               'Unlocks at Awaken Level 15. Increases healing effect greatly.',
+               'Unlocks at Awaken Level 18. Increases healing effect greatly.',
+               'Unlocks at Glory Awaken Level 30. Increases healing effect greatly.',
+               'Unlocks at Glory Awaken Level 60. Increases healing effect greatly.',
+            ],
+            skill_Type: ['Heal'],
+         },
+         {
+            skill_Image: '/heroes/minstrel/skill-4.jpg',
+            skill_Name: 'Concerto',
+            skill_Description: 'Every time Minstrel releases the healing skill successfully, he can increase the target\'s armor and magic resistance for a certain amount.',
+            skill_Effects: [
+               'Increases target\'s armor by 261.95',
+               'ncreases 338 magic resistance',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 5. Increases armor and magic resistance boosting effect.',
+               'Unlocks at Awaken Level 16. Increases armor and magic resistance boosting effect.',
+               'Unlocks at Awaken Level 17. Increases armor and magic resistance boosting effect.',
+               'Unlocks at Glory Awaken Level 40. Increases armor and magic resistance boosting effect.',
+               'Unlocks at Glory Awaken Level 50. Increases armor and magic resistance boosting effect.',
+            ],
+            skill_Type: ['Buff'],
+         },
+         {
+            skill_Image: '/heroes/minstrel/skill-6.jpg',
+            skill_Name: 'Rock and Love',
+            skill_Description: 'When Minstrel casts Requiem, he will damage enemies nearby with sound waves. When fighting together with Ise Archer-Valentine, Ise Archer will also release a sound wave attack when Minstrel casts Requiem.',
          },
       ],
    },
@@ -2019,7 +2482,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 10. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 80. Increases the additional damage.',
             ],
-            skill_Type: ['Lightning'],
+            skill_Type: ['Magic', 'Lightning'],
          },
          {
             skill_Image: '/heroes/nature-storm/skill-2.jpg',
@@ -2035,7 +2498,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 20. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 70. Increases the effect of slowing.',
             ],
-            skill_Type: ['Lightning'],
+            skill_Type: ['Magic', 'Lightning'],
          },
          {
             skill_Image: '/heroes/nature-storm/skill-3.jpg',
@@ -2076,6 +2539,92 @@ export const HeroesData = [
          },
       ],
    },
+   // Night Ranger
+   {
+      id: 137,
+      name: 'Night Ranger',
+      realName: 'Welverin',
+      image: '/heroes/night-ranger/avatar.jpg',
+      poster: '/heroes/night-ranger/poster.jpg',
+      posterSkin: '',
+      skin: '',
+      skinName: '',
+      portraits: 'Noble Elf',
+      type: 'AGI',
+      frame: 'normal',
+      tags: ['male', 'bow', 'sword'],
+      rarity: 'rare',
+      introduction: 'Back line agile hero, who can summon darkness and turn into a dark knight to fight.',
+      heroesClass: 'Marksman',
+      position: 'Back',
+      majorDuty: 'Debuff',
+      skills: [
+         {
+            skill_Image: '/heroes/night-ranger/skill-1.jpg',
+            skill_Name: 'Dark Watch',
+            skill_Description: 'Smothers the sun and summons darkness, blinding all enemies. Turns into a dark knight who has magic immunity then fights against the enemies.',
+            skill_Effects: [
+               'Blind hit rate increases with level, will definitely hit enemies of level 160 or lower'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 1. Reduces the skill energy cost by 25.',
+               'Unlocks at Awaken Level 10. Reduces the skill energy cost by 25.',
+               'Unlocks at Awaken Level 20. Reduces the skill energy cost by 50.',
+               'Unlocks at Glory Awaken Level 10. Reduces the skill energy cost by 50.',
+               'Unlocks at Glory Awaken Level 80. Reduces the skill energy cost by 50.',
+            ],
+            skill_Type: ['Buff', 'Control'],
+         },
+         {
+            skill_Image: '/heroes/night-ranger/skill-2.jpg',
+            skill_Name: 'Penetrating Force',
+            skill_Description: 'Fires off an arrow, penetrates and shackles two enemies, stunning them briefly if they move. Casts penetrating blade when in dark knight form, causing damage to enemies along its path, stunning the last target and rushing to his side.',
+            skill_Effects: [
+               'Increases 12000 damage',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 2. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 12. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 19. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 20. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 70. Increases the skill damage greatly.',
+            ],
+            skill_Type: ['Physical', 'Control'],
+         },
+         {
+            skill_Image: '/heroes/night-ranger/skill-3.jpg',
+            skill_Name: 'Dark Blade',
+            skill_Description: 'Places a thorns trap which will be triggered when the enemies cast magic skills, throwing them into the air. Casts blades which will rotate around himself when in dark knight form, causing multiple damage to enemies around.',
+            skill_Effects: [
+               'Increases 9600 damage',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 3. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 15. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 18. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 30. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 60. Increases the skill damage greatly.',
+            ],
+            skill_Type: ['Physical', 'Control'],
+         },
+         {
+            skill_Image: '/heroes/night-ranger/skill-4.jpg',
+            skill_Name: 'Dark Area',
+            skill_Description: 'Sets an alert area when the battle starts, his normal attack will knock back the enemies in this area and deal extra damage to them.',
+            skill_Effects: [
+               'Deals 15950 bonus damage',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 5. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 16. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 17. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 40. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 50. Increases the skill damage greatly.',
+            ],
+            skill_Type: ['Physical', 'Control'],
+         },
+      ],
+   },
    // Ninja Assassin
    {
       id: 139,
@@ -2110,7 +2659,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 10. Increases the attack boosting effect by 60%.',
                'Unlocks at Glory Awaken Level 80. Increases the attack boosting effect by 60%.',
             ],
-            skill_Type: ['Physical'],
+            skill_Type: ['Physical', 'Buff'],
          },
          {
             skill_Image: '/heroes/ninja-assassin/skill-2.jpg',
@@ -2123,7 +2672,7 @@ export const HeroesData = [
                'Unlocks at Awaken Level 2. Increases the skill damage greatly.',
                'Unlocks at Awaken Level 12. Gains extra 50 energy when casting the skill.',
                'Unlocks at Awaken Level 19. Increases the skill hit rate to 100%.',
-               'Unlocks at Glory Awaken Level 20. Increses the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 20. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 70. Increases the skill damage greatly.',
             ],
             skill_Type: ['Physical'],
@@ -2212,7 +2761,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 10. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 80. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Magic'],
+            skill_Type: ['Magic', 'Control'],
          },
          {
             skill_Image: '/heroes/nymph-of-sea/skill-2.jpg',
@@ -2247,7 +2796,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 30. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 60. Increases magic resistance reduction effect.',
             ],
-            skill_Type: ['Magic'],
+            skill_Type: ['Magic', 'Control', 'Debuff'],
          },
          {
             skill_Image: '/heroes/nymph-of-sea/skill-4.jpg',
@@ -2309,7 +2858,7 @@ export const HeroesData = [
                'Increases 1858.2 damage',
                'Stunning hit rate increases with level, will definitely hit enemies of level 163 or lower',
             ],
-            skill_Type: ['Physical'],
+            skill_Type: ['Physical', 'Control'],
          },
          {
             skill_Image: '/heroes/pilot/skill-3.jpg',
@@ -2382,7 +2931,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 20.  Increases extra damage to enemies with the burn mark.',
                'Unlocks at Glory Awaken Level 70. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Fire'],
+            skill_Type: ['Magic', 'Fire'],
          },
          {
             skill_Image: '/heroes/professional-killer/skill-3.jpg',
@@ -2423,6 +2972,109 @@ export const HeroesData = [
          },
       ],
    },
+   // Psychic Sword
+   {
+      id: 151,
+      name: 'Psychic Sword',
+      realName: 'Mala',
+      image: '/heroes/psychic-sword/avatar.jpg',
+      poster: '/heroes/psychic-sword/poster.jpg',
+      posterSkin: '/heroes/psychic-sword/poster-skin.jpg',
+      skin: '/heroes/psychic-sword/skin.jpg',
+      skinName: 'Heavy Armor',
+      portraits: 'Noble Elf',
+      type: 'AGI',
+      frame: 'legendary',
+      tags: ['female', 'heroine', 'bow'],
+      rarity: 'elite',
+      introduction: 'Back line supporting Hero, who can swap positions with a target Hero to disrupt enemies\' formation.',
+      heroesClass: 'Assassin',
+      position: 'Back',
+      majorDuty: 'Buff',
+      skills: [
+         {
+            skill_Image: '/heroes/psychic-sword/skill-1.jpg',
+            skill_Name: 'Sacrifice',
+            skill_Description: 'Mala bends reality, swapping places with the farthest enemy and casts Kinetic Bolt if she has learned the Skill.',
+            skill_Effects: [
+               'Swapping hit rate increases with level, will definitely hit enemies of level # or lower',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 1. Reduces the skill energy cost by 50.',
+               'Unlocks at Awaken Level 10. Reduces the skill energy cost by 30.',
+               'Unlocks at Awaken Level 20. Reduces the skill energy cost by 20.',
+               'Unlocks at Glory Awaken Level 10. Reduces the skill energy cost by 20.',
+               'Unlocks at Glory Awaken Level 80. Reduces the skill energy cost by 20.',
+            ],
+            skill_Type: ['Control'],
+         },
+         {
+            skill_Image: '/heroes/psychic-sword/skill-2.jpg',
+            skill_Name: 'Kinetic Bolt',
+            skill_Description: 'Mala fires an arrow made of magical energy at an enemy, dealing damage and making them dizzy.',
+            skill_Effects: [
+               'Increases 9600 damage',
+               'Stunning hit rate increases with level, will definitely hit enemies of level 160 or lower'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 2. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 12. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 19. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 20. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 70. Increases the skill damage greatly.',
+            ],
+            skill_Type: ['Physical', 'Control'],
+         },
+         {
+            skill_Image: '/heroes/psychic-sword/skill-3.jpg',
+            skill_Name: 'Inspire Terror',
+            skill_Description: 'Mala forces foes over a wide area to live their innermost fears, dealing damage and reducing their armor.',
+            skill_Effects: [
+               'Increases 7200 damage',
+               'Reduces enemies\' armor by 480'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 3. Increases the armor reducing effect by 20%.',
+               'Unlocks at Awaken Level 15. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 18. Increases the armor reducing effect by 20%.',
+               'Unlocks at Glory Awaken Level 30. Increases the armor reducing effect by 20%.',
+               'Unlocks at Glory Awaken Level 60. Increases the skill damage greatly.',
+            ],
+            skill_Type: ['Physical', 'Debuff'],
+         },
+         {
+            skill_Image: '/heroes/psychic-sword/skill-4.jpg',
+            skill_Name: 'Rally',
+            skill_Description: 'Mala inspires her allies, increasing their physical attack damage.',
+            skill_Effects: [
+               'Aura: The whole Team get 2240 damage bonus',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 5. Increases attack power boosting effect.',
+               'Unlocks at Awaken Level 16. Increases attack power boosting effect.',
+               'Unlocks at Awaken Level 17. Increases attack power boosting effect.',
+               'Unlocks at Glory Awaken Level 40. Increases attack power boosting effect.',
+               'Unlocks at Glory Awaken Level 50. Increases attack power boosting effect.',
+            ],
+            skill_Type: ['Buff'],
+         },
+         {
+            skill_Image: '/heroes/psychic-sword/skill-5.jpg',
+            skill_Name: 'Undead Revenge',
+            skill_Description: 'Upon death, Mala gives allied heroes attack damage and magic power bonus.',
+            skill_Effects: [
+               'Increases # attack damage for all allied heroes',
+               'Increases the whole Team\'s magic power by #',
+            ],
+            skill_Type: ['Buff'],
+         },
+         {
+            skill_Image: '/heroes/psychic-sword/skill-6.jpg',
+            skill_Name: 'Galaxy Officer',
+            skill_Description: 'Using the Heavy Armor Skin allows Psychic Sword to clear all the positive effects of the target after she exchanges the position with the enemy successfully, and cut off the connection between the enemy and the enemy\'s teammates. At the same time, Mala can also get the target\'s maximum HP, attack, armor and magic resistance. (This does not apply to some bosses in Guild Raid Instances or Outland Portal.)',
+         },
+      ],
+   },
    // Purgatory Demon
    {
       id: 154,
@@ -2458,7 +3110,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 10. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 80. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Magic'],
+            skill_Type: ['Magic', 'Control'],
          },
          {
             skill_Image: '/heroes/purgatory-demon/skill-2.jpg',
@@ -2476,7 +3128,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 20. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 70. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Heal'],
+            skill_Type: ['Heal', 'Control'],
          },
          {
             skill_Image: '/heroes/purgatory-demon/skill-3.jpg',
@@ -2492,7 +3144,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 30. Enhances energy losing effect.',
                'Unlocks at Glory Awaken Level 60. Enhances energy losing effect.',
             ],
-            skill_Type: ['Magic'],
+            skill_Type: ['Magic', 'Debuff'],
          },
          {
             skill_Image: '/heroes/purgatory-demon/skill-4.jpg',
@@ -2541,7 +3193,7 @@ export const HeroesData = [
                'Holy Damage +68000',
                'The higher the Skill level, the higher the hit rate. You will get 100% chance if the target is under Level 170'
             ],
-            skill_Type: ['Magic'],
+            skill_Type: ['Magic', 'Holy', 'Debuff'],
          },
          {
             skill_Image: '/heroes/queen-of-wraith/skill-2.jpg',
@@ -2568,7 +3220,7 @@ export const HeroesData = [
             skill_Effects: [
                'Steals 17000 in HP',
             ],
-            skill_Type: ['Buff'],
+            skill_Type: ['Heal', 'Debuff'],
          },
       ],
    },
@@ -2600,7 +3252,7 @@ export const HeroesData = [
                'Increases damage by 4800 for each time',
                'Blind hit rate increases with level, will definitely hit enemies of level 160 or lower'
             ],
-            skill_Type: ['Physical'],
+            skill_Type: ['Physical', 'Control'],
          },
          {
             skill_Image: '/heroes/sandstorm-hunter/skill-2.jpg',
@@ -2609,7 +3261,7 @@ export const HeroesData = [
             skill_Effects: [
                'Increases 8000 damage',
             ],
-            skill_Type: ['Physical'],
+            skill_Type: ['Physical', 'Control'],
          },
          {
             skill_Image: '/heroes/sandstorm-hunter/skill-3.jpg',
@@ -2627,7 +3279,75 @@ export const HeroesData = [
             skill_Effects: [
                'HP Recovery +16000 per sec',
             ],
-            skill_Type: ['Heal'],
+            skill_Type: ['Heal', 'Debuff'],
+         },
+      ],
+   },
+   // Savage One
+   {
+      id: 167,
+      name: 'Savage One',
+      realName: 'Barrand',
+      image: '/heroes/savage-one/avatar.jpg',
+      poster: '/heroes/savage-one/poster.jpg',
+      posterSkin: '',
+      skin: '',
+      skinName: '',
+      portraits: 'Deep Sea League',
+      type: 'STR',
+      frame: 'legendary',
+      tags: ['male', 'undersea'],
+      rarity: 'common',
+      introduction: 'Front line strength Tank, who deals physical damage and has control skills.',
+      heroesClass: 'Fighter',
+      position: 'Front',
+      majorDuty: 'Control',
+      skills: [
+         {
+            skill_Image: '/heroes/savage-one/skill-1.jpg',
+            skill_Name: 'Smash and Grabr',
+            skill_Description: 'Barrand slams the ground, causing magic damage and stunning foes in a moderate area.',
+            skill_Effects: [
+               'Increases 1840 damage',
+               'Stunning hit rate increases with level, will definitely hit enemies of level 160 or lower'
+            ],
+            skill_Type: ['Magic', 'Control'],
+         },
+         {
+            skill_Image: '/heroes/savage-one/skill-2.jpg',
+            skill_Name: 'Arc Swing',
+            skill_Description: 'A powerful attack that causes physical damage to nearby foes.',
+            skill_Effects: [
+               'Increases 2416 damage',
+            ],
+            skill_Type: ['Physical'],
+         },
+         {
+            skill_Image: '/heroes/savage-one/skill-3.jpg',
+            skill_Name: 'Corrosion',
+            skill_Description: 'Barrand marks an enemy and weakens the armor of the target for a period of time.',
+            skill_Effects: [
+               'Reduces target\'s armor by 288',
+            ],
+            skill_Type: ['Debuff'],
+         },
+         {
+            skill_Image: '/heroes/savage-one/skill-4.jpg',
+            skill_Name: 'Elder Strength',
+            skill_Description: 'Barrand increases his own strength.',
+            skill_Effects: [
+               'Passive: increases 480 strength'
+            ],
+            skill_Type: ['Buff'],
+         },
+         {
+            skill_Image: '/heroes/savage-one/skill-5.jpg',
+            skill_Name: 'Naga Protection',
+            skill_Description: 'Heroes with the medal Undersea can get Agility enhancement.',
+            skill_Effects: [
+               'Aura: Increases # agility for teammates who are Undersea Creatures'
+            ],
+            skill_Type: ['Buff'],
          },
       ],
    },
@@ -2697,7 +3417,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 30. Reduces the skill cooldown by 3 second(s).',
                'Unlocks at Glory Awaken Level 60. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Physical'],
+            skill_Type: ['Physical', 'Buff'],
          },
          {
             skill_Image: '/heroes/scabbardless-blade/skill-4.jpg',
@@ -2713,7 +3433,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 40. Increases the extra damage greatly.',
                'Unlocks at Glory Awaken Level 50. Increases the extra damage greatly.',
             ],
-            skill_Type: ['Buff'],
+            skill_Type: ['Buff', 'Heal'],
          },
          {
             skill_Image: '/heroes/scabbardless-blade/skill-5.jpg',
@@ -2781,7 +3501,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 20. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 70. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Ice'],
+            skill_Type: ['Magic', 'Ice', 'Control'],
          },
          {
             skill_Image: '/heroes/shadowleaf/skill-3.jpg',
@@ -2798,7 +3518,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 30. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 60. Gains extra 50 energy when casting the skill.',
             ],
-            skill_Type: ['Physical'],
+            skill_Type: ['Physical', 'Control'],
          },
          {
             skill_Image: '/heroes/shadowleaf/skill-4.jpg',
@@ -2867,7 +3587,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 10. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 80. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Physical'],
+            skill_Type: ['Physical', 'Control'],
          },
          {
             skill_Image: '/heroes/shallows-keeper/skill-2.jpg',
@@ -2884,7 +3604,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 20. Increases armor weakening effect.',
                'Unlocks at Glory Awaken Level 70. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Physical'],
+            skill_Type: ['Physical', 'Debuff'],
          },
          {
             skill_Image: '/heroes/shallows-keeper/skill-3.jpg',
@@ -2905,7 +3625,7 @@ export const HeroesData = [
          {
             skill_Image: '/heroes/shallows-keeper/skill-4.jpg',
             skill_Name: 'Shield of the Deep',
-            skill_Description: 'Shallows Keeper is under Tidal Force\'s protect.Shallows Keeper will not be interrupted when releasing skills and the damage he receives will be reduced.Also, his armor will be passively increased.',
+            skill_Description: 'Shallows Keeper is under Tidal Force\'s protect. Shallows Keeper will not be interrupted when releasing skills and the damage he receives will be reduced. Also, his armor will be passively increased.',
             skill_Effects: [
                'Passive: increases armor by 320',
             ],
@@ -2931,6 +3651,365 @@ export const HeroesData = [
             skill_Image: '/heroes/shallows-keeper/skill-6.jpg',
             skill_Name: 'Rushing',
             skill_Description: 'Using the Champion Heart skin allows Shallows Keeper to gain a shield after releasing his skills, preventing one time of damage. He will rush forward when the shield breaks, kicking the enemies along the way into the air, stunning and repelling the enemy who broke the shield.',
+         },
+      ],
+   },
+   // Silencer
+   {
+      id: 181,
+      name: 'Silencer',
+      realName: 'Saif',
+      image: '/heroes/silencer/avatar.jpg',
+      poster: '/heroes/silencer/poster.jpg',
+      posterSkin: '/heroes/silencer/poster-skin.jpg',
+      skin: '/heroes/silencer/skin.jpg',
+      skinName: 'Heavy Armor',
+      portraits: 'Noble Elf',
+      type: 'INT',
+      frame: 'normal',
+      tags: ['male', 'bow'],
+      rarity: 'rare',
+      introduction: 'Middle line Mage, who restrains Mage Heroes and deals heavy physical damage.',
+      heroesClass: 'Support',
+      position: 'Central',
+      majorDuty: 'Control',
+      skills: [
+         {
+            skill_Image: '/heroes/silencer/skill-1.jpg',
+            skill_Name: 'Strategist',
+            skill_Description: 'Saif silences all enemies\' magic skills so that they can only deal physical damage.',
+            skill_Effects: [
+               'Silence hit rate increases with level, will definitely hit enemies of level 168 or lower',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 1. Reduces the skill energy cost by 20.',
+               'Unlocks at Awaken Level 10. Reduces the skill energy cost by 20.',
+               'Unlocks at Awaken Level 20. Reduces the skill energy cost by 20.',
+               'Unlocks at Glory Awaken Level 10. Increases the duration of silence effect.',
+               'Unlocks at Glory Awaken Level 80. Reduces the skill energy cost by 20.',
+            ],
+            skill_Type: ['Control'],
+         },
+         {
+            skill_Image: '/heroes/silencer/skill-2.jpg',
+            skill_Name: 'Silence',
+            skill_Description: 'Silences an enemy, preventing them from using skills accompanied with magic damage.',
+            skill_Effects: [
+               'Increases 2755.2 damage',
+               'Silence hit rate increases with level, will definitely hit enemies of level 168 or lower'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 2. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 12. Gain extra 20 energy when casting the skill.',
+               'Unlocks at Awaken Level 19. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 20. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 70. Increases the skill damage greatly.',
+            ],
+            skill_Type: ['Magic', 'Control'],
+         },
+         {
+            skill_Image: '/heroes/silencer/skill-3.jpg',
+            skill_Name: 'Befuddle',
+            skill_Description: 'Saif befuddles enemies over an area to deal magic damage and make them lose energy.',
+            skill_Effects: [
+               'Increases 1764 damage',
+               'Target loses 336 energy'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 3. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 15. Increases the skill range.',
+               'Unlocks at Awaken Level 18. Gains extra 20 energy when casting the skill.',
+               'Unlocks at Glory Awaken Level 30. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 60. Increases the skill damage greatly.',
+            ],
+            skill_Type: ['Magic', 'Debuff'],
+         },
+         {
+            skill_Image: '/heroes/silencer/skill-4.jpg',
+            skill_Name: 'Searing Aura',
+            skill_Description: 'Saif\'s normal attack deals extra holy damage to an enemy.',
+            skill_Effects: [
+               'Increases holy damage by 1881.6',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 5. Increases extra holy damage by 10%.',
+               'Unlocks at Awaken Level 16. Increases extra holy damage by 10%.',
+               'Unlocks at Awaken Level 17. Increases extra holy damage by 5%.',
+               'Unlocks at Glory Awaken Level 40. Increases extra holy damage by 10%.',
+               'Unlocks at Glory Awaken Level 50. Increases extra holy damage by 10%.',
+            ],
+            skill_Type: ['Magic', 'Holy'],
+         },
+         {
+            skill_Image: '/heroes/silencer/skill-6.jpg',
+            skill_Name: 'Energy Grab',
+            skill_Description: 'Using the Heavy Armor Skin allows Silencer to reduce some energy of enemy heroes when an enemy hero or Silencer casts ultimate skill. Every time Silencer reduces enemy heroes\' energy, his magic power is increased permanently.',
+         },
+      ],
+   },
+   // Silencer-Limited
+   {
+      id: 182,
+      name: 'Silencer-Limited',
+      realName: 'Saif',
+      image: '/heroes/silencer-limited/avatar.jpg',
+      poster: '/heroes/silencer-limited/poster.jpg',
+      posterSkin: '',
+      skin: '',
+      skinName: '',
+      portraits: 'Noble Elf',
+      type: 'INT',
+      frame: 'normal',
+      tags: ['male', 'bow'],
+      rarity: 'limited',
+      introduction: 'Middle line Mage, who uses magic to prohibit enemy hero to cast skills.',
+      heroesClass: 'Mage',
+      position: 'Central',
+      majorDuty: 'Control',
+      skills: [
+         {
+            skill_Image: '/heroes/silencer-limited/skill-1.jpg',
+            skill_Name: 'Silence Area',
+            skill_Description: 'Summons field, prohibiting all enemies from casting Ultimate Skill and using magic and gaining physical damage reduction buff. This skill will be cast instantly when the battle starts, which cannot be interrupted. Passive: Controls Space Aura, reducing damage taken.',
+            skill_Effects: [
+               'Reduces damage taken by 3360 when being attacked',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 1. Increases skill effect of reducing enemies\' physical damage reduction effect.',
+               'Unlocks at Awaken Level 10. Increases the duration of silence effect.',
+               'Unlocks at Awaken Level 20. Reduces the skill energy cost by 50.',
+               'Unlocks at Glory Awaken Level 10. Increases skill effect of reducing enemies\' physical damage reduction effect.',
+               'Unlocks at Glory Awaken Level 80. Increases skill effect of reducing enemies\' physical damage reduction effect.',
+            ],
+            skill_Type: ['Control', 'Buff', 'Debuff'],
+         },
+         {
+            skill_Image: '/heroes/silencer-limited/skill-2.jpg',
+            skill_Name: 'Silence Curse',
+            skill_Description: 'Throws weapons to enemies and keeps spinning, causes area damage and energy losses to enemies.',
+            skill_Effects: [
+               'Increases 4200 damage',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 2. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 12. Increases the amount of energy loss.',
+               'Unlocks at Awaken Level 19. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 20. Gains extra 50 energy when casting the skill.',
+               'Unlocks at Glory Awaken Level 70. Increases the amount of energy loss.',
+            ],
+            skill_Type: ['Magic', 'Debuff'],
+         },
+         {
+            skill_Image: '/heroes/silencer-limited/skill-3.jpg',
+            skill_Name: 'Last Words',
+            skill_Description: 'Curses an enemy target, dealing damage, and the target cannot attack when being cursed.',
+            skill_Effects: [
+               'Increases 13440 damage',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 3. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 15. Increases the skill range.',
+               'Unlocks at Awaken Level 18. Gains extra 50 energy when casting the skill.',
+               'Unlocks at Glory Awaken Level 30. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 60. Increases the skill damage greatly.',
+            ],
+            skill_Type: ['Magic', 'Debuff'],
+         },
+         {
+            skill_Image: '/heroes/silencer-limited/skill-4.jpg',
+            skill_Name: 'Blade of Wisdom',
+            skill_Description: 'Fortifies normal attack, dealing extra damage based on intellect. The normal attack can bounce to targets nearby and steal their intelligence.',
+            skill_Effects: [
+               'Increases all allied Elves\' Accuracy by 336',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 5. Increases intellect stealing effect greatly.',
+               'Unlocks at Awaken Level 16. Increases Elves\' accuracy boosting effect greatly.',
+               'Unlocks at Awaken Level 17. Increases intellect stealing effect greatly.',
+               'Unlocks at Glory Awaken Level 40. Increases Elves\' accuracy boosting effect greatly.',
+               'Unlocks at Glory Awaken Level 50. Increases intellect stealing effect greatly.',
+            ],
+            skill_Type: ['Buff', 'Debuff'],
+         },
+      ],
+   },
+   // Sky Guardian
+   {
+      id: 184,
+      name: 'Sky Guardian',
+      realName: 'Michelle',
+      image: '/heroes/sky-guardian/avatar.jpg',
+      poster: '/heroes/sky-guardian/poster.jpg',
+      posterSkin: '',
+      skin: '',
+      skinName: '',
+      portraits: 'Noble Elf',
+      type: 'AGI',
+      frame: 'normal',
+      tags: ['female', 'heroine', 'bow'],
+      rarity: 'rare',
+      introduction: 'Back line agile hero, who can attack enemies by the force of her divine eagle.',
+      heroesClass: 'Marksman',
+      position: 'Back',
+      majorDuty: 'Multistage Damage Dealer',
+      skills: [
+         {
+            skill_Image: '/heroes/sky-guardian/skill-1.jpg',
+            skill_Name: 'Air Raid',
+            skill_Description: 'Michelle is brought into the air by her divine eagle, dealing damage to enemies multiple times.',
+            skill_Effects: [
+               'Increases 12800 damage',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 1. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 10. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 20. Reduces the skill energy cost by 50.',
+               'Unlocks at Glory Awaken Level 10. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 80. Increases the skill damage greatly.',
+            ],
+            skill_Type: ['Physical'],
+         },
+         {
+            skill_Image: '/heroes/sky-guardian/skill-2.jpg',
+            skill_Name: 'Crossbow',
+            skill_Description: 'Michelle fires off multiple arrows to strike enemies.',
+            skill_Effects: [
+               'Increases 10400 damage'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 2. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 12. Reduces the skill cooldown by 3 second(s).',
+               'Unlocks at Awaken Level 19. Gain extra 150 energy when casting the skill.',
+               'Unlocks at Glory Awaken Level 20. Reduces the skill cooldown by 3 second(s).',
+               'Unlocks at Glory Awaken Level 70. Increases the skill damage greatly.',
+            ],
+            skill_Type: ['Physical'],
+         },
+         {
+            skill_Image: '/heroes/sky-guardian/skill-3.jpg',
+            skill_Name: 'Eagle Strike',
+            skill_Description: 'Michelle\'s eagle attacks an enemy and blinds him.',
+            skill_Effects: [
+               'Increases 7200 damage',
+               'Blind hit rate increases with level, will definitely hit enemies of level 160 or lower'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 3. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 15. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 18. Gains extra 100 energy when casting the skill.',
+               'Unlocks at Glory Awaken Level 30. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 60. Increases the skill damage greatly.',
+            ],
+            skill_Type: ['Physical', 'Control'],
+         },
+         {
+            skill_Image: '/heroes/sky-guardian/skill-4.jpg',
+            skill_Name: 'Eagle Mark',
+            skill_Description: 'Michelle marks a target. The marked target will receive additional damage when Michelle and her eagle attack him.',
+            skill_Effects: [
+               'Increases max damage by 16000',
+               'The higher the Skill level, the higher the hit rate. You will get 100% chance if the target is under Level 160'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 5. Damage increases based on Attack Damage.',
+               'Unlocks at Awaken Level 16. Gain extra 100 energy when casting the skill.',
+               'Unlocks at Awaken Level 17. Increases Attack Damage bonus.',
+               'Unlocks at Glory Awaken Level 40. Increases the skill range.',
+               'Unlocks at Glory Awaken Level 50. Increases Attack Damage bonus.',
+            ],
+            skill_Type: ['Buff'],
+         },
+      ],
+   },
+   // Stargazer
+   {
+      id: 192,
+      name: 'Stargazer',
+      realName: 'Sofia',
+      image: '/heroes/stargazer/avatar.jpg',
+      poster: '/heroes/stargazer/poster.jpg',
+      posterSkin: '/heroes/stargazer/poster-skin.jpg',
+      skin: '/heroes/stargazer/skin.jpg',
+      skinName: 'Santa',
+      portraits: 'Noble Elf',
+      type: 'INT',
+      frame: 'normal',
+      tags: ['female'],
+      rarity: 'legendary',
+      introduction: 'Back line intellect hero, who can interrupt enemies with her skills.',
+      heroesClass: 'Support',
+      position: 'Back',
+      majorDuty: 'Debuff',
+      skills: [
+         {
+            skill_Image: '/heroes/stargazer/skill-1.jpg',
+            skill_Name: 'Galaxy Explosion',
+            skill_Description: 'Sofia deals explosive damage to enemies in an area and makes them unable to restore HP.',
+            skill_Effects: [
+               'Increases 12450 damage',
+               'The higher the Skill level, the higher the hit rate. You will get 100% chance if the target is under Level 166'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 1. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 10. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 20. Reduces the skill energy cost by 50.',
+               'Unlocks at Glory Awaken Level 10. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 80. Increases the skill damage greatly.',
+            ],
+            skill_Type: ['Magic', 'Debuff'],
+         },
+         {
+            skill_Image: '/heroes/stargazer/skill-2.jpg',
+            skill_Name: 'Astrolabium',
+            skill_Description: 'Sofia creates a field, where enemies are damaged and cannot use physical skills or attacks.',
+            skill_Effects: [
+               'The higher the Skill level, the higher the hit rate. You will get 100% chance if the target is under Level 166'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 2. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 12. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 19. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 20. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 70. Increases the skill damage greatly.',
+            ],
+            skill_Type: ['Magic', 'Debuff'],
+         },
+         {
+            skill_Image: '/heroes/stargazer/skill-3.jpg',
+            skill_Name: 'Phase Transfer',
+            skill_Description: 'Sofia releases a shooting star to strike a farthest enemy and gives him a star mark, during which Sofia can resist physical damage for one instance. If Sofia receives melee attacks, the attacker and the marked target will swap positions.',
+            skill_Effects: [
+               'Increases 12450 damage',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 3. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 15. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 18. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 30. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 60. Increases the skill damage greatly.',
+            ],
+            skill_Type: ['Magic', 'Buff'],
+         },
+         {
+            skill_Image: '/heroes/stargazer/skill-4.jpg',
+            skill_Name: 'Arcane Stars',
+            skill_Description: 'Each time Sofia\'s skill damages an enemy, she has a chance to summon a planet going around the target. The planet can deal damage to nearby enemies.',
+            skill_Effects: [
+               'Increases 4150 damage',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 5. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 16. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 17. Increases the rate of summoning planet.',
+               'Unlocks at Glory Awaken Level 40. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 50. Increases the rate of summoning planet.',
+            ],
+            skill_Type: ['Magic', 'Summon'],
+         },
+         {
+            skill_Image: '/heroes/stargazer/skill-6.jpg',
+            skill_Name: 'Energy Grab',
+            skill_Description: 'When Phase Transfer is triggered, the two targets which swapped position change into Christmas Elks, and will receive extra damage.',
          },
       ],
    },
@@ -3034,6 +4113,66 @@ export const HeroesData = [
          },
       ],
    },
+   // Time Traveler
+   {
+      id: 212,
+      name: 'Time Traveler',
+      realName: 'Miguel',
+      image: '/heroes/time-traveler/avatar.jpg',
+      poster: '/heroes/time-traveler/poster.jpg',
+      posterSkin: '',
+      skin: '',
+      skinName: '',
+      portraits: 'Phoenix Council',
+      type: 'INT',
+      frame: 'normal',
+      tags: ['male', 'evil'],
+      rarity: 'elite',
+      introduction: 'Middle line intellect hero, who can strike and control enemies by the force of time.',
+      heroesClass: 'Mage',
+      position: 'Central',
+      majorDuty: 'AOE',
+      skills: [
+         {
+            skill_Image: '/heroes/time-traveler/skill-1.jpg',
+            skill_Name: 'Time Barrier',
+            skill_Description: 'Miguel releases a time barrier that stuns any enemies passing through, dealing magic damage.',
+            skill_Effects: [
+               'Increases 3204 damage',
+               'Stunning hit rate increases with level, will definitely hit enemies of level 168 or lower'
+            ],
+            skill_Type: ['Magic', 'Control'],
+         },
+         {
+            skill_Image: '/heroes/time-traveler/skill-2.jpg',
+            skill_Name: 'Time Lock',
+            skill_Description: 'Miguel locks an enemy of most magic power, dealing magic damage to him.',
+            skill_Effects: [
+               'Deals totally 25410 damage over time',
+            ],
+            skill_Type: ['Magic', 'Control'],
+         },
+         {
+            skill_Image: '/heroes/time-traveler/skill-3.jpg',
+            skill_Name: 'Chronosphere',
+            skill_Description: 'Miguel creates a chronosphere, where enemies receive magic damage over time.',
+            skill_Effects: [
+               'Increases 3204 damage',
+            ],
+            skill_Type: ['Magic'],
+         },
+         {
+            skill_Image: '/heroes/time-traveler/skill-4.jpg',
+            skill_Name: 'Time Seal',
+            skill_Description: 'Enemies damaged by Miguel will be marked with a time seal. The time seal reduces enemie\' magic power and will explode to deal holy damage when stacked to a certain amount.',
+            skill_Effects: [
+               'Increases holy damage by 6720',
+               'Reduces the target\'s magic power by 334'
+            ],
+            skill_Type: ['Magic', 'Holy', 'Debuff'],
+         },
+      ],
+   },
    // Treasure Hunter
    {
       id: 212,
@@ -3068,7 +4207,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 10. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 80. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Physical'],
+            skill_Type: ['Magic'],
          },
          {
             skill_Image: '/heroes/treasure-hunter/skill-2.jpg',
@@ -3084,7 +4223,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 20. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 70. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Physical'],
+            skill_Type: ['Physical', 'Debuff'],
          },
          {
             skill_Image: '/heroes/treasure-hunter/skill-3.jpg',
@@ -3100,7 +4239,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 30. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 60. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Physical'],
+            skill_Type: ['Physical', 'Buff'],
          },
          {
             skill_Image: '/heroes/treasure-hunter/skill-4.jpg',
@@ -3116,7 +4255,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 40. Increases the HP recovery effect.',
                'Unlocks at Glory Awaken Level 50. Increases the HP recovery effect.',
             ],
-            skill_Type: ['Heal'],
+            skill_Type: ['Heal', 'Control'],
          },
       ],
    },
@@ -3171,7 +4310,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 20. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 70. Increases magic resistance bonus effect by 50%.',
             ],
-            skill_Type: ['Physical'],
+            skill_Type: ['Physical', 'Buff'],
          },
          {
             skill_Image: '/heroes/trigger/skill-3.jpg',
@@ -3188,7 +4327,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 30. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 60. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Physical'],
+            skill_Type: ['Physical', 'Debuff'],
          },
          {
             skill_Image: '/heroes/trigger/skill-4.jpg',
@@ -3249,7 +4388,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 10. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 80. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Magic'],
+            skill_Type: ['Magic', 'Control'],
          },
          {
             skill_Image: '/heroes/vengeance-spirit/skill-2.jpg',
@@ -3281,7 +4420,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 30. Increases energy stealing effect.',
                'Unlocks at Glory Awaken Level 60. Increases energy stealing effect.',
             ],
-            skill_Type: ['Holy'],
+            skill_Type: ['Buff', 'Debuff'],
          },
          {
             skill_Image: '/heroes/vengeance-spirit/skill-4.jpg',
@@ -3297,7 +4436,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 40. Increases the HP recovery effect.',
                'Unlocks at Glory Awaken Level 50. Increases the HP recovery effect.',
             ],
-            skill_Type: ['Heal'],
+            skill_Type: ['Buff'],
          },
          {
             skill_Image: '/heroes/vengeance-spirit/skill-5.jpg',
@@ -3367,7 +4506,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 20. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 70. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Magic'],
+            skill_Type: ['Magic', 'Control'],
          },
          {
             skill_Image: '/heroes/venom-master/skill-3.jpg',
@@ -3400,7 +4539,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 40. Increases continuous damage.',
                'Unlocks at Glory Awaken Level 50. Increases armor reducing effect.',
             ],
-            skill_Type: ['Debuff'],
+            skill_Type: ['Debuff', 'Control'],
          },
          {
             skill_Image: '/heroes/venom-master/skill-6.jpg',
@@ -3444,7 +4583,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 10. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 80. Increases the range of knockback effect greatly.',
             ],
-            skill_Type: ['Magic'],
+            skill_Type: ['Magic', 'Control'],
          },
          {
             skill_Image: '/heroes/wind-master/skill-2.jpg',
@@ -3461,7 +4600,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 20. Increases the skill damage greatly.',
                'Unlocks at Glory Awaken Level 70. Gains extra 100 energy when casting the skill.',
             ],
-            skill_Type: ['Magic'],
+            skill_Type: ['Magic', 'Control'],
          },
          {
             skill_Image: '/heroes/wind-master/skill-3.jpg',
@@ -3477,7 +4616,7 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 30. Extends the time of attack speed increased effect',
                'Unlocks at Glory Awaken Level 60. Increases the skill damage greatly.',
             ],
-            skill_Type: ['Magic'],
+            skill_Type: ['Magic', 'Buff'],
          },
          {
             skill_Image: '/heroes/wind-master/skill-4.jpg',
