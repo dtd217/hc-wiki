@@ -40,12 +40,29 @@ const Heroes = () => {
                   <img src="/filter/male.png" alt="male tag" />
                   <img src="/filter/mechanic.png" alt="mechanic tag" />
                   <img src="/filter/undersea.png" alt="undersea tag" />
+                  <img src="/filter/ninja.png" alt="ninja tag" />
                   <img src="/filter/poison.png" alt="poison tag" />
                   <img src="/filter/troll.png" alt="troll tag" />
                   <img src="/filter/undead.png" alt="undead tag" />
                   <img src="/filter/pilgrims.png" alt="pilgrims tag" />
                   {/* <img src="/filter/sorceress.png" alt="all type" />
                   <img src="/filter/transformers.png" alt="all type" /> */}
+               </div>
+               <div className='flex flex-wrap gap-3 *:size-12'>
+                  <img src="/filter/noble-elf.png" alt="noble-elf tag" className='rounded-full bg-red-500' />
+                  <img src="/filter/son-of-the-forest.png" alt="son-of-the-forest tag" className='rounded-full bg-red-500' />
+                  <img src="/filter/plateau-tribe.png" alt="plateau-tribe tag" className='rounded-full bg-red-500' />
+                  <img src="/filter/orc-legion.png" alt="orc-legion tag" className='rounded-full bg-red-500' />
+                  <img src="/filter/northland-hermit.png" alt="northland-hermit tag" className='rounded-full bg-red-500' />
+                  <img src="/filter/cemetery-ghost.png" alt="cemetery-ghost tag" className='rounded-full bg-red-500' />
+                  <img src="/filter/chaos-demon.png" alt="chaos-demon tag" className='rounded-full bg-red-500' />
+                  <img src="/filter/curse-sect.png" alt="curse-sect tag" className='rounded-full bg-red-500' />
+                  <img src="/filter/clos-league.png" alt="clos-league tag" className='rounded-full bg-red-500' />
+                  <img src="/filter/machinery-association.png" alt="machinery-association tag" className='rounded-full bg-red-500' />
+                  <img src="/filter/land-of-gods.png" alt="land-of-gods tag" className='rounded-full bg-red-500' />
+                  <img src="/filter/phoenix-council.png" alt="phoenix-council tag" className='rounded-full bg-red-500' />
+                  <img src="/filter/deep-sea-league.png" alt="deep-sea-league tag" className='rounded-full bg-red-500' />
+                  <img src="/filter/dragon-habitat.png" alt="dragon-habitat tag" className='rounded-full bg-red-500' />
                </div>
             </div>
             <div className='grid grid-cols-[repeat(auto-fill,minmax(90px,1fr))] gap-4'>
