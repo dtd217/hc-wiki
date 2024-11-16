@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../Layout/Layout'
 import Hero from '../Components/Hero'
 import { HeroesData } from '../Data/HeroesData'
+import ListHeroes from '../Components/ListHeroes'
 
 const Heroes = () => {
    return (
@@ -65,11 +66,7 @@ const Heroes = () => {
                   <img src="/filter/dragon-habitat.png" alt="dragon-habitat tag" className='rounded-full bg-red-500' />
                </div>
             </div>
-            <div className='grid grid-cols-[repeat(auto-fill,minmax(90px,1fr))] gap-4'>
-               {HeroesData.map((hero) => (
-                  <Hero key={hero.id} hero={hero} />
-               ))}
-            </div>
+            <ListHeroes heroes={HeroesData} />
          </div>
       </Layout >
    )

@@ -144,7 +144,7 @@ const SingleHero = () => {
                               <li key={index} className='list-disc ml-5'>{effect}</li>
                            ))}
                         </ul>
-                        {skill.skill_Type && <p>Skill type: {skill.skill_Type.join(', ')}</p>}
+                        {skill.skill_Type && <p className='font-semibold'>Skill type: {skill.skill_Type.join(', ')}</p>}
                         {skill.skill_Awaken &&
                            <div className='flex flex-col'>
                               <h3 className='font-bold text-xl'>Awaken</h3>

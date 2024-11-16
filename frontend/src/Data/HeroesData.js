@@ -191,6 +191,68 @@ export const HeroesData = [
          },
       ],
    },
+   // Ancient Protector
+   {
+      id: 6,
+      name: 'Ancient Protector',
+      realName: 'Root',
+      image: '/heroes/ancient-protector/avatar.jpg',
+      poster: '/heroes/ancient-protector/poster.jpg',
+      posterSkin: '',
+      skin: '',
+      skinName: '',
+      portraits: 'Son of the Forest',
+      type: 'STR',
+      frame: 'normal',
+      tags: ['male', 'giant'],
+      rarity: 'elite',
+      introduction: 'Front line Tank, who can transform into a tree form and summon plants to attack enemies.',
+      heroesClass: 'Tank',
+      position: 'Front',
+      majorDuty: 'Summoner',
+      skills: [
+         {
+            skill_Image: '/heroes/ancient-protector/skill-1.jpg',
+            skill_Name: 'Force of Nature',
+            skill_Description: 'Transforms into an ancient tree and gains the ability to summon 3 kinds of plants. Energy Spore: Increases Ancient Protector\'s energy. Missile Spore: Launches missiles and deals damage to enemies ahead. Detonation Spore: Starts self-destruct and damages nearby enemies.(Costs Ancient Protector 200 energy)',
+            skill_Effects: [
+               'Missile Spore Level is 162',
+               'Energy Spore Level is 162',
+               'Detonation Spore Level is 162'
+            ],
+            skill_Type: ['Physical', 'Summon', 'Buff'],
+         },
+         {
+            skill_Image: '/heroes/ancient-protector/skill-2.jpg',
+            skill_Name: 'Vine Armor',
+            skill_Description: 'Creates an armor of vines around a friendly unit, increasing his armor and recovering his HP.',
+            skill_Effects: [
+               'Increases target\'s armor by 324',
+               'Restore 10368 HP over time'
+            ],
+            skill_Type: ['Heal', 'Buff'],
+         },
+         {
+            skill_Image: '/heroes/ancient-protector/skill-3.jpg',
+            skill_Name: 'Entangled',
+            skill_Description: 'Summons vines and branches to entangle a target, dealing damage over time.',
+            skill_Effects: [
+               'Deals 3645 continuous damage in total',
+               'Entangling hit rate increases with level, will definitely hit enemies of level 162 or lower'
+            ],
+            skill_Type: ['Magic'],
+         },
+         {
+            skill_Image: '/heroes/ancient-protector/skill-4.jpg',
+            skill_Name: 'Life Blessing',
+            skill_Description: 'Increases the HP of summoned plants.',
+            skill_Effects: [
+               'Increases HP by 10530 for the summoned plants'
+            ],
+            skill_Type: ['Buff'],
+         },
+      ],
+   },
    // Arcane Sapper
    {
       id: 9,
@@ -1347,6 +1409,244 @@ export const HeroesData = [
          },
       ],
    },
+   // Fallen Dominion
+   {
+      id: 75,
+      name: 'Fallen Dominion',
+      realName: 'Drees',
+      image: '/heroes/fallen-dominion/avatar.jpg',
+      poster: '/heroes/fallen-dominion/poster.jpg',
+      posterSkin: '',
+      skin: '',
+      skinName: '',
+      portraits: 'Son of the Forest',
+      type: 'AGI',
+      frame: 'normal',
+      tags: ['male', 'evil', 'sword'],
+      rarity: 'common',
+      introduction: 'Front line damage dealer, who possesses a strong potential.',
+      heroesClass: 'Fighter',
+      position: 'Front',
+      majorDuty: 'Continuous Damage',
+      skills: [
+         {
+            skill_Image: '/heroes/fallen-dominion/skill-1.jpg',
+            skill_Name: 'Transform',
+            skill_Description: 'When Drees has half of energy or more, he is able to transform into a powerful demon with a ranged attack. The demon form consumes energy over time.',
+            skill_Effects: [
+               'Increases 4742.8 attack damage'
+            ],
+            skill_Type: ['Physical']
+         },
+         {
+            skill_Image: '/heroes/fallen-dominion/skill-2.jpg',
+            skill_Name: 'Mirror Image',
+            skill_Description: 'Drees creates a copy of himself which deals damage.',
+            skill_Effects: [
+               'Mirror Image level 160'
+            ],
+            skill_Type: ['Summon']
+         },
+         {
+            skill_Image: '/heroes/fallen-dominion/skill-3.jpg',
+            skill_Name: 'Lifeforce Steal',
+            skill_Description: 'Drees locks an enemy unit and steals lifeforce from them.',
+            skill_Effects: [
+               'Steals HP by 2160 with each attack'
+            ],
+            skill_Type: ['Heal', 'Debuff']
+         },
+         {
+            skill_Image: '/heroes/fallen-dominion/skill-4.jpg',
+            skill_Name: 'Devil\'s Blood',
+            skill_Description: 'Drees strengthens his body with devil\'s blood, increasing HP.',
+            skill_Effects: [
+               'Passive: increases HP by 12800'
+            ],
+            skill_Type: ['Buff'],
+         },
+      ],
+   },
+   // Floral Fairy
+   {
+      id: 81,
+      name: 'Floral Fairy',
+      realName: 'Laraine',
+      image: '/heroes/floral-fairy/avatar.jpg',
+      poster: '/heroes/floral-fairy/poster.jpg',
+      posterSkin: '',
+      skin: '',
+      skinName: '',
+      portraits: 'Son of the Forest',
+      type: 'INT',
+      frame: 'normal',
+      tags: ['female', 'fly'],
+      rarity: 'legendary',
+      introduction: 'Back line intellect hero, who fights with the butterfly fairie Rhorho and can protect allies.',
+      heroesClass: 'Support',
+      position: 'Back',
+      majorDuty: 'Buff',
+      skills: [
+         {
+            skill_Image: '/heroes/floral-fairy/skill-1.jpg',
+            skill_Name: 'Spreading Pollen',
+            skill_Description: 'Laraine spreads magic pollen to make all allies enter dreamland, during which the heroes are immune to physical damage and gain continuous HP regeneration.',
+            skill_Effects: [
+               'Restores 9130 HP in total',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 1. Increases the HP recovery effect.',
+               'Unlocks at Awaken Level 10. Increases the HP recovery effect.',
+               'Unlocks at Awaken Level 20. Increases the HP recovery effect.',
+               'Unlocks at Glory Awaken Level 10. Increases the HP recovery effect.',
+               'Unlocks at Glory Awaken Level 80. Increases the HP recovery effect.',
+            ],
+            skill_Type: ['Heal', 'Buff'],
+         },
+         {
+            skill_Image: '/heroes/floral-fairy/skill-2.jpg',
+            skill_Name: 'Pollen Beam',
+            skill_Description: 'Laraine and Rhorho each launch a magic pollen beam, each one damaging and knocking back enemies ahead.',
+            skill_Effects: [
+               'Increases 5810 damage',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 2. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 12. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 19. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 20. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 70. Increases the skill damage greatly.',
+            ],
+            skill_Type: ['Magic', 'Control'],
+         },
+         {
+            skill_Image: '/heroes/floral-fairy/skill-3.jpg',
+            skill_Name: 'Flower Whisper',
+            skill_Description: 'Laraine launches a spell onto the weakest target, transforming it and reducing its magic resistance if the target is an enemy, or restoring its HP and sending Rhorho to it if the target is an ally.',
+            skill_Effects: [
+               'Restores 5810 HP in total'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 3. Increases the HP recovery effect.',
+               'Unlocks at Awaken Level 15. Increases the HP recovery effect.',
+               'Unlocks at Awaken Level 18. Increases the HP recovery effect.',
+               'Unlocks at Glory Awaken Level 30. Increases the HP recovery effect.',
+               'Unlocks at Glory Awaken Level 60. Increases the HP recovery effect.',
+            ],
+            skill_Type: ['Heal', 'Debuff', 'Control'],
+         },
+         {
+            skill_Image: '/heroes/floral-fairy/skill-4.jpg',
+            skill_Name: 'Fairie Guardian',
+            skill_Description: 'Laraine is assisted by Rhorho, a butterfly fairie. Rhorho can assist allies and gain the target ally extra armor. Upon the start of the battle, Rhorho will assist a front line allied hero.',
+            skill_Effects: [
+               'Passive: increases armor by 498'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 5. Increases extra armor boosting effect greatly.',
+               'Unlocks at Awaken Level 16. Increases extra armor boosting effect greatly.',
+               'Unlocks at Awaken Level 17. Increases extra armor boosting effect greatly.',
+               'Unlocks at Glory Awaken Level 40. Increases extra armor boosting effect greatly.',
+               'Unlocks at Glory Awaken Level 50. Increases extra armor boosting effect greatly.',
+            ],
+            skill_Type: ['Buff'],
+         },
+      ],
+   },
+   // Forest Chomper
+   {
+      id: 83,
+      name: 'Forest Chomper',
+      realName: 'Lessie',
+      image: '/heroes/forest-chomper/avatar.jpg',
+      poster: '/heroes/forest-chomper/poster.jpg',
+      posterSkin: '/heroes/forest-chomper/poster-skin.jpg',
+      skin: '/heroes/forest-chomper/skin.jpg',
+      skinName: 'Rose Valentine',
+      portraits: 'Son of the Forest',
+      type: 'INT',
+      frame: 'normal',
+      tags: ['female'],
+      rarity: 'rare',
+      introduction: 'Back line intellect hero, who can summon the chomper to devour enemies.',
+      heroesClass: 'Support',
+      position: 'Back',
+      majorDuty: 'Buff',
+      skills: [
+         {
+            skill_Image: '/heroes/forest-chomper/skill-1.jpg',
+            skill_Name: 'Forest\'s Fury',
+            skill_Description: 'Lessie summons the chomper to devour an enemy and deal damage.',
+            skill_Effects: [
+               'Summons a level 171 chomper'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 1. Increases attack power boosting effect.',
+               'Unlocks at Awaken Level 10. Increases physical crit boosting effect.',
+               'Unlocks at Awaken Level 20. Increases attack power boosting effect.',
+               'Unlocks at Glory Awaken Level 10. Increases physical crit boosting effect.',
+               'Unlocks at Glory Awaken Level 80. Storm Beast gets higher HP and Attack.',
+            ],
+            skill_Type: ['Magic', 'Summon'],
+         },
+         {
+            skill_Image: '/heroes/forest-chomper/skill-2.jpg',
+            skill_Name: 'Forest\'s Punishment',
+            skill_Description: 'Lessie raises a crowd of vines to attack enemies. The enemies who killed the vines will be infected, reducing their magic resistance, and this effect can be stacked.',
+            skill_Effects: [
+               'Summons level 171 vines',
+               'Reduces target\'s magic resistance by 256.5'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 2. Increases magic resistance reduction effect.',
+               'Unlocks at Awaken Level 12. Increases magic resistance reduction effect.',
+               'Unlocks at Awaken Level 19. Increases magic resistance reduction effect.',
+               'Unlocks at Glory Awaken Level 20. Increases magic resistance reduction effect.',
+               'Unlocks at Glory Awaken Level 70. Increases magic resistance reduction effect.',
+            ],
+            skill_Type: ['Magic', 'Summon', 'Debuff'],
+         },
+         {
+            skill_Image: '/heroes/forest-chomper/skill-3.jpg',
+            skill_Name: 'Sprout',
+            skill_Description: 'Lessie summons vines under enemy targets to entangle them, dealing damage and reducing their armor value. She can also restore HP when entangling infected enemies.',
+            skill_Effects: [
+               'Increases 11970 damage',
+               'Reduces target\'s armor by 513',
+               'The higher the Skill level, the higher the hit rate. You will get 100% chance if the target is under Level 171'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 3. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 15. Increases armor weakening effect.',
+               'Unlocks at Awaken Level 18. Increases armor weakening effect.',
+               'Unlocks at Glory Awaken Level 30. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 60. Increases armor weakening effect.',
+            ],
+            skill_Type: ['Magic', 'Summon', 'Debuff', 'Heal'],
+         },
+         {
+            skill_Image: '/heroes/forest-chomper/skill-4.jpg',
+            skill_Name: 'Thorns\' Guard',
+            skill_Description: 'Lessie protects teammates using the power of vines, increasing their magic resistance, reducing the non-fire damage they received, and returning damage to the enemies when teammates receive damage.',
+            skill_Effects: [
+               'Gets 171 magic resistance'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 5. Increases magic resistance boosting effect.',
+               'Unlocks at Awaken Level 16. Increases magic resistance boosting effect.',
+               'Unlocks at Awaken Level 17. Increases the non-fire damage reduction effect.',
+               'Unlocks at Glory Awaken Level 40. Increases magic resistance boosting effect.',
+               'Unlocks at Glory Awaken Level 50. Increases magic resistance boosting effect.',
+            ],
+            skill_Type: ['Magic', 'Buff'],
+         },
+         {
+            skill_Image: '/heroes/forest-chomper/skill-6.jpg',
+            skill_Name: 'True Love as Flower',
+            skill_Description: 'Using the Rose Valentine skin allows Forest Chomper to increase her chompers\' damage and cause area damage when her chompers are dispelled. The third skill will be able to entangle multiple targets and the effect of her fourth skill will be improved. If Flame Dancer-Rose Valentine is in the same team, she will get Flame Guardian when she only has a low amount of HP left for the first time, turning into temporary invincible status and burning the nearby enemies.',
+         },
+      ],
+   },
    // Forest Fairy
    {
       id: 84,
@@ -1436,6 +1736,65 @@ export const HeroesData = [
             skill_Image: '/heroes/forest-fairy/skill-6.jpg',
             skill_Name: 'Abysmal Elf',
             skill_Description: 'Using the Beach Party Skin allows Forest Fairy to enter into a void mode at regular intervals, remove the control effects and be immune to physical pain. The ultimate skill and the 3rd skill can deal poison damage to the enemy based on their max HP. The healing skill of Forest Fairy can poison allies\' weapons. Allies\' basic attack can deal poison damage to the enemy and the effect can be stacked up to 5 times.',
+         },
+      ],
+   },
+   // Forest Guardian
+   {
+      id: 85,
+      name: 'Forest Guardian',
+      realName: 'Laquer',
+      image: '/heroes/forest-guardian/avatar.jpg',
+      poster: '/heroes/forest-guardian/poster.jpg',
+      posterSkin: '',
+      skin: '',
+      skinName: '',
+      portraits: 'Son of the Forest',
+      type: 'INT',
+      frame: 'normal',
+      tags: ['male', 'fire', 'god'],
+      rarity: 'elite',
+      introduction: 'Middle line Mage, who can deal huge magic damage to enemies coming close.',
+      heroesClass: 'Mage',
+      position: 'Central',
+      majorDuty: 'AOE',
+      skills: [
+         {
+            skill_Image: '/heroes/forest-guardian/skill-1.jpg',
+            skill_Name: 'Pulse Nova',
+            skill_Description: 'Summons a Pulse Nova every second to continuously damage nearby enemies.',
+            skill_Effects: [
+               'Increases 1881.6 damage',
+            ],
+            skill_Type: ['Magic', 'Fire'],
+         },
+         {
+            skill_Image: '/heroes/forest-guardian/skill-2.jpg',
+            skill_Name: 'Lightning Storm',
+            skill_Description: 'Calls a lightning storm that jumps and hits nearby enemies.',
+            skill_Effects: [
+               'Increases 1293.6 damage',
+            ],
+            skill_Type: ['Magic', 'Lightning'],
+         },
+         {
+            skill_Image: '/heroes/forest-guardian/skill-3.jpg',
+            skill_Name: 'Diabolic Blast',
+            skill_Description: 'Saturates the area with magic, causing random explosive damage to nearby enemies.',
+            skill_Effects: [
+               'Each attack increases 672 damage',
+            ],
+            skill_Type: ['Magic', 'Fire'],
+         },
+         {
+            skill_Image: '/heroes/forest-guardian/skill-4.jpg',
+            skill_Name: 'Split Earth',
+            skill_Description: 'Splits the earth under enemies\' feet. Deals damage and stuns for a short duration.',
+            skill_Effects: [
+               'Increases 1176 damage',
+               'Stunning hit rate increases with level, will definitely hit enemies of level 168 or lower'
+            ],
+            skill_Type: ['Magic', 'Control'],
          },
       ],
    },
@@ -2049,7 +2408,7 @@ export const HeroesData = [
                'Increases 480 strength',
             ],
             skill_Awaken: [
-               'Unlocks at Awaken Level 5. Increases strength boosting effect by 150%..',
+               'Unlocks at Awaken Level 5. Increases strength boosting effect by 150%.',
                'Unlocks at Awaken Level 16. Increases strength boosting effect by 250%.',
                'Unlocks at Awaken Level 17. Increases strength boosting effect by 400%.',
                'Unlocks at Glory Awaken Level 40. Increases strength boosting effect by 200%.',
@@ -2061,6 +2420,192 @@ export const HeroesData = [
             skill_Image: '/heroes/iron-hoof/skill-6.jpg',
             skill_Name: 'Purification Nemesis',
             skill_Description: 'Using the Charge Limited Skin allows Ballaks Crys to deal extra holy damage to all enemies based on his armor and magic resistance when casting the ultimate skill. Doubles the damage to the enemy hero with the highest attack damage and permanently prevents him from casting the ultimate skill.',
+         },
+      ],
+   },
+   // Jungle Boy
+   {
+      id: 112,
+      name: 'Jungle Boy',
+      realName: 'Abner',
+      image: '/heroes/jungle-boy/avatar.jpg',
+      poster: '/heroes/jungle-boy/poster.jpg',
+      posterSkin: '/heroes/jungle-boy/poster-skin.jpg',
+      skin: '/heroes/jungle-boy/skin.jpg',
+      skinName: 'Gladiator',
+      portraits: 'Son of the Forest',
+      type: 'AGI',
+      frame: 'normal',
+      tags: ['male', 'beast'],
+      rarity: 'legendary',
+      introduction: 'Middle line agile hero, who can summon the Jungle Giant to possess him during the fight.',
+      heroesClass: 'Fighter',
+      position: 'Central',
+      majorDuty: 'Continuous Damage',
+      skills: [
+         {
+            skill_Image: '/heroes/jungle-boy/skill-1.jpg',
+            skill_Name: 'Jungle Giant',
+            skill_Description: 'Abner summons the Jungle Giant to possess him, gaining a large amount of shield. The more survived enemy heroes, the higher shield value. The shield value will be increased when he releases the ult skill again during the possession time. Abner will transform back to himself after the shield is broke.',
+            skill_Effects: [
+               'Absorbs up to 30400 damage',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 1. Reduces the skill energy cost by 100.',
+               'Unlocks at Awaken Level 10. Increases shield absorbed damage by 25%.',
+               'Unlocks at Awaken Level 20. Reduces the skill energy cost by 150.',
+               'Unlocks at Glory Awaken Level 10. Increases shield absorbed damage by 20%.',
+               'Unlocks at Glory Awaken Level 80. Increases shield absorbed damage by 20%.',
+            ],
+            skill_Type: ['Buff', 'Summon'],
+         },
+         {
+            skill_Image: '/heroes/jungle-boy/skill-2.jpg',
+            skill_Name: 'Primeval Snipe',
+            skill_Description: 'Jungle Boy: causes area damage and prohibits the targets who are wounded by this skill to be healed or use some of the healing skills. Jungle Giant: causes area damage, prohibits the targets who are wounded by this skill to be healed and stuns the targets.',
+            skill_Effects: [
+               'Increases 9600 damage',
+               'The higher the Skill level, the higher the hit rate. You will get 100% chance if the target is under Level 160'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 2. Increases the area damage caused by Jungle Boy greatly.',
+               'Unlocks at Awaken Level 12. Increases the area damage caused by Jungle Giant greatly.',
+               'Unlocks at Awaken Level 19. Increases the attack range of area damage caused by Jungle Giant.',
+               'Unlocks at Glory Awaken Level 20. Increases the area damage caused by Jungle Boy greatly.',
+               'Unlocks at Glory Awaken Level 70. Increases the area damage caused by Jungle Giant greatly.',
+            ],
+            skill_Type: ['Physical', 'Debuff', 'Control'],
+         },
+         {
+            skill_Image: '/heroes/jungle-boy/skill-3.jpg',
+            skill_Name: 'Wild Attack',
+            skill_Description: 'Jungle Boy: attacks the front enemies, causing more damage to the close enemies and repelling them back. Jungle Giant: pounds the ground three times, causing area damage. Enemies at the center of the area will receive more damage. The first two times of pounding slow down the enemies and the last time stuns the enemies.',
+            skill_Effects: [
+               'Absorbs max damage by 8000',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 3. Increases the area damage caused by Jungle Boy greatly.',
+               'Unlocks at Awaken Level 15. Increases the area damage caused by Jungle Giant greatly.',
+               'Unlocks at Awaken Level 18. Reduces the skill cooldown by 3 second(s).',
+               'Unlocks at Glory Awaken Level 30. Increases the area damage caused by Jungle Boy greatly.',
+               'Unlocks at Glory Awaken Level 60. Increases the area damage caused by Jungle Giant greatly.',
+            ],
+            skill_Type: ['Physical', 'Control'],
+         },
+         {
+            skill_Image: '/heroes/jungle-boy/skill-4.jpg',
+            skill_Name: 'Giant\'s Blessing',
+            skill_Description: 'Abner\'s physical attack and physical crit will be increased every time he releases the ult skill and can be stacked up to 3 times.',
+            skill_Effects: [
+               'Increases 3200 damage',
+               'Passive: increases 240 Physical Crit'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 5. Increases the attack boosting effect by 30%.',
+               'Unlocks at Awaken Level 16. Increases the attack boosting effect by 50%.',
+               'Unlocks at Awaken Level 17. Increases the attack boosting effect by 50%.',
+               'Unlocks at Glory Awaken Level 40. Increases the attack boosting effect by 50%.',
+               'Unlocks at Glory Awaken Level 50. Increases the attack boosting effect by 50%.',
+            ],
+            skill_Type: ['Buff'],
+         },
+         {
+            skill_Image: '/heroes/jungle-boy/skill-6.jpg',
+            skill_Name: 'Little General',
+            skill_Description: 'Using the Gladiator Skin allows the skills of Jungle Boy and Jungle Giant to increase the physical damage that enemies received continuously.',
+         },
+      ],
+   },
+   // Kitten Knight
+   {
+      id: 113,
+      name: 'Kitten Knight',
+      realName: 'Bell and Bartel',
+      image: '/heroes/kitten-knight/avatar.jpg',
+      poster: '/heroes/kitten-knight/poster.jpg',
+      posterSkin: '/heroes/kitten-knight/poster-skin.jpg',
+      skin: '/heroes/kitten-knight/skin.jpg',
+      skinName: 'Fairytale World',
+      portraits: 'Son of the Forest',
+      type: 'STR',
+      frame: 'normal',
+      tags: ['male', 'beast'],
+      rarity: 'legendary',
+      introduction: 'Front line strength hero, who can absorb a lot of damage in the front of the battlefield and heal the allies after receiving a certain amount of damage.',
+      heroesClass: 'Tank',
+      position: 'Front',
+      majorDuty: 'Tank',
+      skills: [
+         {
+            skill_Image: '/heroes/kitten-knight/skill-1.jpg',
+            skill_Name: 'Potential Burst',
+            skill_Description: 'Bartel turns half of his HP into an equivalent shield rapidly. And for the next period of time, Bartel deals massive AoE damage and reduces the magic and physical damage received.',
+            skill_Effects: [
+               'Increases 12000 damage',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 1. Increases damage when flying.',
+               'Unlocks at Awaken Level 10. Increases the attack range when flying.',
+               'Unlocks at Awaken Level 20. Increases attack speed when flying.',
+               'Unlocks at Glory Awaken Level 10. Increases damage when flying.',
+               'Unlocks at Glory Awaken Level 80. Increases damage when flying.',
+            ],
+            skill_Type: ['Magic', 'Buff'],
+         },
+         {
+            skill_Image: '/heroes/kitten-knight/skill-2.jpg',
+            skill_Name: 'Magic Vine',
+            skill_Description: 'Bell drags an enemy target towards him over time. After dragging the target over, Bartel smashes the ground, causing area damage and stunning enemies.',
+            skill_Effects: [
+               'Increases 10400 damage',
+               'Stunning hit rate increases with level, will definitely hit enemies of level 160 or lower'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 2. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 12. Increases the skill control duration.',
+               'Unlocks at Awaken Level 19. Gains extra 100 energy when casting the skill.',
+               'Unlocks at Glory Awaken Level 20. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 70. Increases the skill damage greatly.',
+            ],
+            skill_Type: ['Magic', 'Control'],
+         },
+         {
+            skill_Image: '/heroes/kitten-knight/skill-3.jpg',
+            skill_Name: 'Skewer',
+            skill_Description: 'Bartel strikes the enemies in front of him, knocks back and stuns the enemies if the enemies\' strength is lower than him.',
+            skill_Effects: [
+               'Increases 8800 damage',
+               'Stunning hit rate increases with level, will definitely hit enemies of level 160 or lower'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 3. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 15. Increases the skill range.',
+               'Unlocks at Awaken Level 18. Reduces the skill cooldown by 3 second(s).',
+               'Unlocks at Glory Awaken Level 30. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 60. Increases the skill damage greatly.',
+            ],
+            skill_Type: ['Magic', 'Control'],
+         },
+         {
+            skill_Image: '/heroes/kitten-knight/skill-4.jpg',
+            skill_Name: 'Natural Healing',
+            skill_Description: 'Bell heals Bartel over time in battle, the less HP Bartel has, the better the healing effect. Bell heals two other weak allied heroes when Bartel received a certain amount of damage.',
+            skill_Effects: [
+               'Accumulated heal amounts to 4025'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 5. Increases healing effect over time.',
+               'Unlocks at Awaken Level 16. Increases the frequency of healing allies.',
+               'Unlocks at Awaken Level 17. Increases the healing amount for allies.',
+               'Unlocks at Glory Awaken Level 40. Increases healing effect over time.',
+               'Unlocks at Glory Awaken Level 50. Increases the healing amount for allies.',
+            ],
+            skill_Type: ['Heal'],
+         },
+         {
+            skill_Image: '/heroes/kitten-knight/skill-6.jpg',
+            skill_Name: 'Bee Colony Nuisance',
+            skill_Description: 'Kitten Knight builds friendship with bees, summoning bees to attack the enemies when casting ultimate skill, and converting the damage caused by bees into HP to heal Kitten Knight.',
          },
       ],
    },
@@ -3164,6 +3709,95 @@ export const HeroesData = [
          },
       ],
    },
+   // Queen of Nature
+   {
+      id: 157,
+      name: 'Queen of Nature',
+      realName: 'Ivy',
+      image: '/heroes/queen-of-nature/avatar.jpg',
+      poster: '/heroes/queen-of-nature/poster.jpg',
+      posterSkin: '',
+      skin: '',
+      skinName: '',
+      portraits: 'Son of the Forest',
+      type: 'INT',
+      frame: 'normal',
+      tags: ['female'],
+      rarity: 'elite',
+      introduction: 'Middle line intellect hero, who can deal magic damage, control and slow down enemies.',
+      heroesClass: 'Mage',
+      position: 'Central',
+      majorDuty: 'Summoner',
+      skills: [
+         {
+            skill_Image: '/heroes/queen-of-nature/skill-1.jpg',
+            skill_Name: 'Horde of Vines',
+            skill_Description: 'Ivy releases vines to a target and then creates a horde of vines, dealing magic damage to enemies within the area and slowing them down.',
+            skill_Effects: [
+               'Damage increases by 3024',
+               'The higher the Skill level, the higher the hit rate. You will get 100% chance if the target is under Level 168'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 1. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 10. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 20. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 10. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 80. Increases the skill damage greatly.',
+            ],
+            skill_Type: ['Magic', 'Summon', 'Control'],
+         },
+         {
+            skill_Image: '/heroes/queen-of-nature/skill-2.jpg',
+            skill_Name: 'Entangle',
+            skill_Description: 'Ivy summons vines under an enemy target to entangle him, dealing magic damage.',
+            skill_Effects: [
+               'Deals 17640 continuous damage in total',
+               'The higher the Skill level, the higher the hit rate. You will get 100% chance if the target is under Level 168'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 2. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 12. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 19. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 20. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 70. Increases the skill damage greatly.',
+            ],
+            skill_Type: ['Magic', 'Summon'],
+         },
+         {
+            skill_Image: '/heroes/queen-of-nature/skill-3.jpg',
+            skill_Name: 'Vine Strike',
+            skill_Description: 'Ivy throws out vines to strike enemies, dealing area damage and knocking them back.',
+            skill_Effects: [
+               'Increases 3024 damage',
+               'The higher the Skill level, the higher the hit rate. You will get 100% chance if the target is under Level 168'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 3. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 15. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 18. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 30. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 60. Increases the skill damage greatly.',
+            ],
+            skill_Type: ['Magic', 'Control'],
+         },
+         {
+            skill_Image: '/heroes/queen-of-nature/skill-4.jpg',
+            skill_Name: 'Nature Punishment',
+            skill_Description: 'Reduces magic resistance of enemies damaged by Ivy.',
+            skill_Effects: [
+               'Reduces target\'s magic resistance by 184.8'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 5. Increases magic resistance reduction effect.',
+               'Unlocks at Awaken Level 16. Increases magic resistance reduction effect.',
+               'Unlocks at Awaken Level 17. Increases magic resistance reduction effect.',
+               'Unlocks at Glory Awaken Level 40. Increases magic resistance reduction effect.',
+               'Unlocks at Glory Awaken Level 50. Increases magic resistance reduction effect.',
+            ],
+            skill_Type: ['Debuff'],
+         },
+      ],
+   },
    // Queen of Wraith
    {
       id: 159,
@@ -3918,6 +4552,94 @@ export const HeroesData = [
                'Unlocks at Glory Awaken Level 50. Increases Attack Damage bonus.',
             ],
             skill_Type: ['Buff'],
+         },
+      ],
+   },
+   // Spirit of Wind
+   {
+      id: 191,
+      name: 'Spirit of Wind',
+      realName: 'Liya',
+      image: '/heroes/spirit-of-wind/avatar.jpg',
+      poster: '/heroes/spirit-of-wind/poster.jpg',
+      posterSkin: '',
+      skin: '',
+      skinName: '',
+      portraits: 'Son of the Forest',
+      type: 'INT',
+      frame: 'normal',
+      tags: ['female'],
+      rarity: 'epic',
+      introduction: 'Back line intellect hero, who can summon a storm beast to fight together with her during the battle.',
+      heroesClass: 'Mage',
+      position: 'Back',
+      majorDuty: 'Summoner',
+      skills: [
+         {
+            skill_Image: '/heroes/spirit-of-wind/skill-1.jpg',
+            skill_Name: 'Storm Beast',
+            skill_Description: 'Summons the storm beast to fight. If the storm beast is already on the battlefield, this skill will increase the physical attack and physical crit of the storm beast and restore a certain amount of its HP, it can be stacked up to 3 times. The storm beast can only be summoned once in the same battle.',
+            skill_Effects: [
+               'Summons a Lv165 Storm Beast',
+               'Increases 13200 physical attack damage each time',
+               'Increases 495 physical crit each time'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 1. Increases attack power boosting effect.',
+               'Unlocks at Awaken Level 10. Increases physical crit boosting effect.',
+               'Unlocks at Awaken Level 20. Increases attack power boosting effect.',
+               'Unlocks at Glory Awaken Level 10. Increases physical crit boosting effect.',
+               'Unlocks at Glory Awaken Level 80. Storm Beast gets higher HP and Attack.',
+            ],
+            skill_Type: ['Summon', 'Heal', 'Buff'],
+         },
+         {
+            skill_Image: '/heroes/spirit-of-wind/skill-2.jpg',
+            skill_Name: 'Hurricane Dart',
+            skill_Description: 'Throws out a dart and damages the enemies it passes through. The dart will increase the attack speed of the storm beast when passing through it.',
+            skill_Effects: [
+               'Increases damage by 9900 for each time',
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 2. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 12. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 19. Gains extra 50 energy when casting the skill.',
+               'Unlocks at Glory Awaken Level 20. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 70. Increases Storm Beast\'s attack speed bonus effect.',
+            ],
+            skill_Type: ['Magic', 'Buff'],
+         },
+         {
+            skill_Image: '/heroes/spirit-of-wind/skill-3.jpg',
+            skill_Name: 'Hurricane Breath',
+            skill_Description: 'The storm beast spits out a strong hurricane, dealing damage to enemies multiple times. And Liya will gain extra energy when the skill kills the enemy.',
+            skill_Effects: [
+               'Increases damage by 8250 for each time'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 3. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 15. Increases the skill damage greatly.',
+               'Unlocks at Awaken Level 18. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 30. Increases the skill damage greatly.',
+               'Unlocks at Glory Awaken Level 60. Increases the skill damage greatly.',
+            ],
+            skill_Type: ['Magic', 'Buff'],
+         },
+         {
+            skill_Image: '/heroes/spirit-of-wind/skill-4.jpg',
+            skill_Name: 'Wind Pact',
+            skill_Description: 'Summons a storm beast immediately when the battle starts. And Liya will restore a certain amount of HP whenever she releases her ultimate skill.',
+            skill_Effects: [
+               'Increases healing effect by 16500'
+            ],
+            skill_Awaken: [
+               'Unlocks at Awaken Level 5. Increases the HP recovery effect.',
+               'Unlocks at Awaken Level 16. Increases the HP recovery effect.',
+               'Unlocks at Awaken Level 17. Increases the HP recovery effect.',
+               'Unlocks at Glory Awaken Level 40. Increases the HP recovery effect.',
+               'Unlocks at Glory Awaken Level 50. Increases the HP recovery effect.',
+            ],
+            skill_Type: ['Summon', 'Heal'],
          },
       ],
    },
